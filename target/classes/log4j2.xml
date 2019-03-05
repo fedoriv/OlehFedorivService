@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" name="MyApp" packages="">
+    <Properties>
+        <Property name="logsPath">src/main/resources/logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%-5level] - %msg%n"/>
+        </Console>
+        <RollingFile name="RollFile_Size_Appender" fileName="${logsPath}/sizeRoll.log"
+                     filePattern="${logsPath}/sizeRoll.log">
+            <PatternLayout pattern="%-5level %date{yyyy-MM-dd HH:mm} %class{1}:%L - %highlight{%msg} %xEx{short}%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1024 KB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <appender-ref ref="STDOUT"/>
+            <appender-ref ref="RollFile_Size_Appender"/>
+        </Root>
+    </Loggers>
+</Configuration>
