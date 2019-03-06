@@ -1,4 +1,3 @@
-web\soap\utils\MailSerializer.class
 web\soap\server\MailServiceImpl.class
 web\soap\server\MailService.class
 web\soap\server\Mail.class

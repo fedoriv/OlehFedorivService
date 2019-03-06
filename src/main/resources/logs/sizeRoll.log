@@ -8,3 +8,96 @@ INFO  2019-03-05 15:31 MailServiceImpl:18 - Send message with id=91cb5e68-2fd5-4
 INFO  2019-03-05 15:31 MailServiceImpl:18 - Send message with id=200a3efd-6d7c-4953-9498-e18d557edd74 
 INFO  2019-03-05 15:31 MailServiceImpl:18 - Send message with id=ba774fa9-c844-4094-86bf-c94a94ec193c 
 INFO  2019-03-05 15:31 MailServiceImpl:18 - Send message with id=2ef3a0dc-257d-4b17-9c4a-ee445ea9e3c9 
+INFO  2019-03-06 10:01 MailServiceImpl:17 - Send message with id=6c55ab87-455a-429c-9367-16a8fc200dc7 
+INFO  2019-03-06 10:01 MailServiceImpl:17 - Send message with id=7e8159fe-6fbc-437f-8276-1ff3f4107bf2 
+INFO  2019-03-06 10:01 MailServiceImpl:17 - Send message with id=e07b7299-0bdb-468f-aef1-6497d3350813 
+INFO  2019-03-06 10:01 MailServiceImpl:17 - Send message with id=c7f9fad9-ac5d-449d-95b2-fdbff5b99470 
+INFO  2019-03-06 10:01 MailServiceImpl:17 - Send message with id=f17c73c3-9de6-4e63-b464-399f19dfefe9 
+INFO  2019-03-06 10:01 MailServiceImpl:17 - Send message with id=f62d08a2-ca90-4068-833a-085359f172d8 
+INFO  2019-03-06 10:01 MailServiceImpl:17 - Send message with id=91da72ad-50ef-4774-a36f-4fb601ae912b 
+INFO  2019-03-06 10:01 MailServiceImpl:17 - Send message with id=7f168975-8f55-4fe8-b6a3-407d467928fd 
+INFO  2019-03-06 10:01 MailServiceImpl:17 - Send message with id=42f7d424-017c-4da5-b27f-382dc4b7e16d 
+INFO  2019-03-06 10:01 MailServiceImpl:17 - Send message with id=13551c80-86c3-4309-a0e6-df84e679bf20 
+INFO  2019-03-06 10:01 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:01 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:01 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:01 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:01 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:01 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:01 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:01 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:01 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:01 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:13 MailServiceImpl:17 - Send message with id=d17423fa-f8f8-4b45-a1bf-3eda23781a57 
+INFO  2019-03-06 10:13 MailServiceImpl:17 - Send message with id=569ff299-ebdb-40eb-b849-aa0c1db39f42 
+INFO  2019-03-06 10:13 MailServiceImpl:17 - Send message with id=eb371cf4-ed25-4f0a-be1c-c5140d7ab4b6 
+INFO  2019-03-06 10:13 MailServiceImpl:17 - Send message with id=4db977cb-e5ef-4d56-adcf-69e065e5fc8b 
+INFO  2019-03-06 10:13 MailServiceImpl:17 - Send message with id=3434421a-9df1-492e-9a26-310948450388 
+INFO  2019-03-06 10:13 MailServiceImpl:17 - Send message with id=788e21ed-9106-44fb-b9e0-03b849a39ce0 
+INFO  2019-03-06 10:13 MailServiceImpl:17 - Send message with id=c27a7822-5286-4c09-b443-28a2be1a5f1a 
+INFO  2019-03-06 10:13 MailServiceImpl:17 - Send message with id=ce8c5d8f-8fd3-48a2-946b-4b0e3a887ea0 
+INFO  2019-03-06 10:13 MailServiceImpl:17 - Send message with id=11ac4497-d0b1-4ef6-9194-e80a129a1b15 
+INFO  2019-03-06 10:13 MailServiceImpl:17 - Send message with id=37e89ed7-983c-4290-a3db-d8dae17c5960 
+INFO  2019-03-06 10:13 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:13 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:13 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:13 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:13 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:13 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:13 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:13 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:13 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:13 MailServiceImpl:75 - Get mail by id: null 
+INFO  2019-03-06 10:15 MailServiceImpl:17 - Send message with id=699c053e-4ee3-49e0-8543-5fe340a4a736 
+INFO  2019-03-06 10:15 MailServiceImpl:17 - Send message with id=dfba13c8-4d94-44aa-8a2d-49bfd66ff7ca 
+INFO  2019-03-06 10:15 MailServiceImpl:17 - Send message with id=f87502c6-e541-4300-a2c9-4e8fc502b1e5 
+INFO  2019-03-06 10:15 MailServiceImpl:17 - Send message with id=d546d3a5-0626-4f2f-8a09-e90724a4182d 
+INFO  2019-03-06 10:15 MailServiceImpl:17 - Send message with id=68b60f1f-441d-440c-8611-e66f18b8ef77 
+INFO  2019-03-06 10:15 MailServiceImpl:17 - Send message with id=75600040-5581-4cf8-aeb1-be00780c3f6d 
+INFO  2019-03-06 10:15 MailServiceImpl:17 - Send message with id=08dde4ce-2c1a-4fee-9dda-72c15cbc2e4f 
+INFO  2019-03-06 10:15 MailServiceImpl:17 - Send message with id=ad70a812-b398-4d5b-933e-00118ee718b9 
+INFO  2019-03-06 10:15 MailServiceImpl:17 - Send message with id=403c6ecf-000c-4348-b467-e38201abb8a7 
+INFO  2019-03-06 10:15 MailServiceImpl:17 - Send message with id=d5b8ee62-7167-480a-bf50-6300721bbeb1 
+INFO  2019-03-06 10:21 MailServiceImpl:17 - Send message with id=18cb3477-5eef-44ae-817e-4b47dd7a6f5e 
+INFO  2019-03-06 10:21 MailServiceImpl:17 - Send message with id=2e8379ba-35ca-4b98-afac-ae16bd04a9b1 
+INFO  2019-03-06 10:21 MailServiceImpl:17 - Send message with id=5a18be09-e5d7-4cd6-9b26-d3b5d00c350d 
+INFO  2019-03-06 10:21 MailServiceImpl:17 - Send message with id=d2cb3651-8e7a-4ba8-8d0c-94947f6f717c 
+INFO  2019-03-06 10:21 MailServiceImpl:17 - Send message with id=e5903fbf-4a06-42f6-a841-1e03e3c0d8f7 
+INFO  2019-03-06 10:21 MailServiceImpl:45 - Get all mails from file 
+INFO  2019-03-06 10:21 MailServiceImpl:17 - Send message with id=59e12787-1a94-40c6-8d75-0e13f47be7fb 
+INFO  2019-03-06 10:21 MailServiceImpl:17 - Send message with id=a9225565-5343-4fca-8353-79ce15b1223e 
+INFO  2019-03-06 10:21 MailServiceImpl:17 - Send message with id=4d2abcd3-14ed-46f1-9976-6ba7cf45bb3f 
+INFO  2019-03-06 10:21 MailServiceImpl:45 - Get all mails from file 
+INFO  2019-03-06 10:21 MailServiceImpl:17 - Send message with id=f5a03e02-167a-4e49-a4bc-d170ef0aa32a 
+INFO  2019-03-06 10:21 MailServiceImpl:45 - Get all mails from file 
+INFO  2019-03-06 10:21 MailServiceImpl:17 - Send message with id=7dfabca0-7225-40ca-acef-61e9750de652 
+INFO  2019-03-06 10:21 MailServiceImpl:45 - Get all mails from file 
+INFO  2019-03-06 10:21 MailServiceImpl:45 - Get all mails from file 
+INFO  2019-03-06 10:21 MailServiceImpl:45 - Get all mails from file 
+INFO  2019-03-06 10:21 MailServiceImpl:45 - Get all mails from file 
+INFO  2019-03-06 10:21 MailServiceImpl:45 - Get all mails from file 
+INFO  2019-03-06 10:21 MailServiceImpl:45 - Get all mails from file 
+INFO  2019-03-06 10:21 MailServiceImpl:45 - Get all mails from file 
+INFO  2019-03-06 10:47 MailServiceImpl:17 - Send message with id=69b4d7f6-c45d-4f48-aeeb-65bcf86d5d4f 
+INFO  2019-03-06 10:47 MailServiceImpl:17 - Send message with id=d8761efb-8120-4f5c-92d1-2171a665d70f 
+INFO  2019-03-06 10:47 MailServiceImpl:17 - Send message with id=cb70b70a-9a51-4491-9240-c49a85fe2593 
+INFO  2019-03-06 10:47 MailServiceImpl:17 - Send message with id=beb6b313-ddfe-470f-8917-a0310eb369b6 
+INFO  2019-03-06 10:47 MailServiceImpl:17 - Send message with id=04f0556f-bccf-4d23-8885-41663d71c7e6 
+INFO  2019-03-06 10:47 MailServiceImpl:17 - Send message with id=7438c451-4c9d-4f8c-a1df-6a9766e2c82a 
+INFO  2019-03-06 10:47 MailServiceImpl:17 - Send message with id=970eec8e-4c64-414f-a000-adfea17ec26e 
+INFO  2019-03-06 10:47 MailServiceImpl:17 - Send message with id=15178ab5-92da-4e38-a585-e94df8263ac9 
+INFO  2019-03-06 10:47 MailServiceImpl:17 - Send message with id=a8cb6a71-f4bd-442c-93ee-f2cca9293fe4 
+INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email04@test.com 
+INFO  2019-03-06 10:47 MailServiceImpl:17 - Send message with id=4e5999b9-b2a9-4ac4-b3bc-ccbb84f43db1 
+INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email08@test.com 
+INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email01@test.com 
+INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email05@test.com 
+INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email03@test.com 
+INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email02@test.com 
+INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email07@test.com 
+INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email010@test.com 
+INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email06@test.com 
+INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email09@test.com 
+INFO  2019-03-06 13:54 MailServerBO:16 - Send message with id=ec2bcc3a-905f-4422-b833-b3c1a240a3e1 
+INFO  2019-03-06 13:54 MailServerBO:41 - Get all mails from file 
+INFO  2019-03-06 13:54 MailServerBO:46 - Get mails by email: evilzluj@mail.ru 
