@@ -1,6 +1,7 @@
 package web.soap.server;
 
 import web.Mail;
+import web.ServiceException;
 import web.serverBO.ServerBO;
 import javax.jws.WebService;
 import java.util.List;
@@ -11,7 +12,7 @@ public class MailServiceImpl implements MailService {
     private ServerBO serverBO;
 
     public MailServiceImpl(){
-        serverBO = new ServerBO();
+        serverBO = ServerBO.getServer();
     }
 
     @Override
@@ -45,7 +46,7 @@ public class MailServiceImpl implements MailService {
     }
 
     @Override
-    public Mail findById(String id) {
+    public Mail findById(String id) throws ServiceException {
         return serverBO.findById(id);
     }
 }

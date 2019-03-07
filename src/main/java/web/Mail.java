@@ -66,4 +66,13 @@ public class Mail implements Serializable {
     public int hashCode() {
         return Objects.hash(id, date, receiver, title, text);
     }
+
+    @Override
+    public String toString() {
+        return "Mail{" +
+                "id='" + id + '\'' +
+                ", receiver='" + receiver + '\'' +
+                ", title='" + title + '\'' +
+                '}';
+    }
 }

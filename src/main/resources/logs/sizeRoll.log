@@ -101,3 +101,110 @@ INFO  2019-03-06 10:47 MailServiceImpl:51 - Get mails by email: email09@test.com
 INFO  2019-03-06 13:54 MailServerBO:16 - Send message with id=ec2bcc3a-905f-4422-b833-b3c1a240a3e1 
 INFO  2019-03-06 13:54 MailServerBO:41 - Get all mails from file 
 INFO  2019-03-06 13:54 MailServerBO:46 - Get mails by email: evilzluj@mail.ru 
+INFO  2019-03-07 11:42 ServerBO:32 - Send message with id=00a4a30b-930c-42da-a8e4-b3f1bf259378 
+INFO  2019-03-07 11:42 ServerBO:32 - Send message with id=5272da40-cde1-45f6-be5b-2cf6b25f5e6b 
+INFO  2019-03-07 11:42 ServerBO:32 - Send message with id=65d14bee-e4f5-4501-be26-01398cd2e9be 
+INFO  2019-03-07 11:42 ServerBO:32 - Send message with id=e5d99c4c-b186-4b18-8a8d-747f2fdb59ef 
+INFO  2019-03-07 11:42 ServerBO:32 - Send message with id=b294aec6-2dd7-4272-8145-b5cc64755c73 
+INFO  2019-03-07 11:42 ServerBO:32 - Send message with id=5e52f74b-2d67-49e9-b45d-9b89fcfe91aa 
+INFO  2019-03-07 11:42 ServerBO:32 - Send message with id=737cfb97-373e-4377-acd1-aa5493618119 
+INFO  2019-03-07 11:42 ServerBO:32 - Send message with id=72e903cf-916c-4cc1-a04d-266754b3d0d5 
+INFO  2019-03-07 11:42 ServerBO:32 - Send message with id=e043535c-872a-4d37-abf9-7993fddbe7f0 
+INFO  2019-03-07 11:42 ServerBO:32 - Send message with id=775cb8d2-f7e7-4491-81d3-4f9c620da939 
+INFO  2019-03-07 11:42 ServerBO:70 - Get mails by email: email01@test.com 
+INFO  2019-03-07 11:42 ServerBO:70 - Get mails by email: email08@test.com 
+INFO  2019-03-07 11:42 ServerBO:70 - Get mails by email: email09@test.com 
+INFO  2019-03-07 11:42 ServerBO:70 - Get mails by email: email02@test.com 
+INFO  2019-03-07 11:42 ServerBO:70 - Get mails by email: email04@test.com 
+INFO  2019-03-07 11:42 ServerBO:70 - Get mails by email: email010@test.com 
+INFO  2019-03-07 11:42 ServerBO:70 - Get mails by email: email07@test.com 
+INFO  2019-03-07 11:42 ServerBO:70 - Get mails by email: email03@test.com 
+INFO  2019-03-07 11:42 ServerBO:70 - Get mails by email: email06@test.com 
+INFO  2019-03-07 11:42 ServerBO:70 - Get mails by email: email05@test.com 
+INFO  2019-03-07 11:52 ServerBO:81 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 11:55 ServerBO:81 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 11:55 ServerBO:81 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 11:57 ServerBO:81 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 11:59 ServerBO:81 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:01 ServerBO:81 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:06 ServerBO:81 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:07 ServerBO:81 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:07 ServerBO:81 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:07 ServerBO:81 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:08 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:08 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:11 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:11 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:11 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:11 ServerBO:32 - Send message with id=90a3ba25-e0c5-4181-a092-acffec8b1bcc 
+INFO  2019-03-07 12:11 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:23 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:23 ServerBO:32 - Send message with id=67265b91-9ffd-49ba-97f4-8c96acb9b91f 
+INFO  2019-03-07 12:23 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:24 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:24 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:25 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:25 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:25 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:25 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:25 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:25 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:27 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:27 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:27 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:27 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:27 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:27 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:28 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:28 ServerBO:32 - Send message with id=f853803a-d8fa-4c4e-9962-9a7b32998b36 
+INFO  2019-03-07 12:28 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:28 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:28 ServerBO:32 - Send message with id=3a1eb2da-f75f-4770-8125-9d9c3a3d2b18 
+INFO  2019-03-07 12:28 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:34 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:34 ServerBO:32 - Send message with id=9f5c7065-33d4-4b05-a6f1-cca793427d72 
+INFO  2019-03-07 12:34 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:39 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:39 ServerBO:32 - Send message with id=502e70b6-f041-4dba-ac08-cd0aada2252d 
+INFO  2019-03-07 12:39 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 12:42 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 12:42 ServerBO:32 - Send message with id=0f082c54-7d8d-4076-be9e-8c090e3d1d53 
+INFO  2019-03-07 12:42 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 13:03 ServerBO:64 - Get all mails from file 
+INFO  2019-03-07 13:03 MailServiceImpl:51 - Method result:Mail{id='0f082c54-7d8d-4076-be9e-8c090e3d1d53', receiver='evilzli@ukr.rrrr', title='SomeTitle'} 
+INFO  2019-03-07 13:54 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 13:54 ServerBO:31 - Send mail with id=628c9fca-7ea2-43bb-94cd-61e17991e435 
+INFO  2019-03-07 13:54 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 13:55 ServerBO:66 - Get all mails from file 
+INFO  2019-03-07 13:55 MailServiceImpl:52 - Method result:Mail{id='628c9fca-7ea2-43bb-94cd-61e17991e435', receiver='evilzli@ukr.rrrr', title='SomeTitle'} 
+INFO  2019-03-07 13:55 ServerBO:66 - Get all mails from file 
+INFO  2019-03-07 13:55 MailServiceImpl:52 - Method result:Mail{id='628c9fca-7ea2-43bb-94cd-61e17991e435', receiver='evilzli@ukr.rrrr', title='SomeTitle'} 
+INFO  2019-03-07 13:58 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 13:58 ServerBO:31 - Send mail with id=443145dc-c62f-49f8-ba07-ae24d8858429 
+INFO  2019-03-07 13:58 ServerBO:82 - Get mails by Title: SomeTitle 
+INFO  2019-03-07 13:59 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 13:59 ServerBO:31 - Send mail with id=04da5527-babc-43dd-a634-1fe24a34be05 
+INFO  2019-03-07 13:59 ServerBO:82 - Get mails by Title: SomeTitl5e 
+INFO  2019-03-07 14:49 ServerBO:66 - Get all mails from file 
+INFO  2019-03-07 14:49 MailServiceImpl:52 - Method result:Mail{id='04da5527-babc-43dd-a634-1fe24a34be05', receiver='evilzli@ukr.rrrr', title='SomeTitle'} 
+INFO  2019-03-07 14:49 ServerBO:66 - Get all mails from file 
+INFO  2019-03-07 14:49 MailServiceImpl:52 - Method result:Mail{id='04da5527-babc-43dd-a634-1fe24a34be05', receiver='evilzli@ukr.rrrr', title='SomeTitle'} 
+INFO  2019-03-07 14:49 ServerBO:66 - Get all mails from file 
+INFO  2019-03-07 14:49 MailServiceImpl:52 - Method result:Mail{id='04da5527-babc-43dd-a634-1fe24a34be05', receiver='evilzli@ukr.rrrr', title='SomeTitle'} 
+INFO  2019-03-07 14:51 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 14:51 ServerBO:82 - Get mails by Title: SomeTitl5e 
+INFO  2019-03-07 15:31 ServerBO:61 - Removing all mails 
+INFO  2019-03-07 15:31 ServerBO:31 - Send mail with id=ef59a14b-ba7b-4ae1-ab05-25cea4a7ce6d 
+INFO  2019-03-07 15:31 ServerBO:44 - Removing mails from file 
+INFO  2019-03-07 16:02 ServerBO:58 - Removing all mails 
+INFO  2019-03-07 16:02 ServerBO:31 - Send mail with id=a28043cc-1fe4-4cad-82c1-10a52f76fc29 
+INFO  2019-03-07 16:02 ServerBO:44 - Removing mails from file 
+INFO  2019-03-07 16:03 ServerBO:58 - Removing all mails 
+INFO  2019-03-07 16:03 ServerBO:44 - Removing mails from file 
+INFO  2019-03-07 16:03 ServerBO:53 - No mails to remove 
+INFO  2019-03-07 16:03 ServerBO:58 - Removing all mails 
+INFO  2019-03-07 16:03 ServerBO:44 - Removing mails from file 
+INFO  2019-03-07 16:03 ServerBO:53 - No mails to remove 
+INFO  2019-03-07 16:03 ServerBO:58 - Removing all mails 
+INFO  2019-03-07 16:03 ServerBO:44 - Removing mails from file 
+INFO  2019-03-07 16:03 ServerBO:53 - No mails to remove 

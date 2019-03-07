@@ -1,5 +1,6 @@
 package web.soap.server;
 import web.Mail;
+import web.ServiceException;
 
 import javax.jws.WebService;
 import java.util.List;
@@ -19,6 +20,6 @@ public interface MailService {
 
     List<Mail> findByTitle(String title);
 
-    Mail findById(String id);
+    Mail findById(String id) throws ServiceException;
 
 }

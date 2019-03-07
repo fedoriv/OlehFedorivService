@@ -1,3 +1,10 @@
-web\soap\server\MailServiceImpl.class
+web\utils\MailSerializer.class
+web\Mail.class
 web\soap\server\MailService.class
-web\soap\server\Mail.class
+web\rest\server\MailServiceImpl.class
+web\soap\server\MailServiceImpl.class
+web\ServiceException.class
+web\fault\FaultMessage.class
+web\serverBO\ServerBO.class
+web\fault\ServiceFaultInfo.class
+web\rest\server\MailService.class
