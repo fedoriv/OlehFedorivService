@@ -26,8 +26,8 @@ public class MailServiceImpl implements MailService {
     }
 
     @Override
-    public void removeAll() {
-        serverBO.removeAll();
+    public boolean clearMails() {
+        return serverBO.removeAll();
     }
 
     @Override

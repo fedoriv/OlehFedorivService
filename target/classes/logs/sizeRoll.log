@@ -196,3 +196,22 @@ INFO  2019-03-07 14:51 ServerBO:82 - Get mails by Title: SomeTitl5e
 INFO  2019-03-07 15:31 ServerBO:61 - Removing all mails 
 INFO  2019-03-07 15:31 ServerBO:31 - Send mail with id=ef59a14b-ba7b-4ae1-ab05-25cea4a7ce6d 
 INFO  2019-03-07 15:31 ServerBO:44 - Removing mails from file 
+INFO  2019-03-07 16:02 ServerBO:58 - Removing all mails 
+INFO  2019-03-07 16:02 ServerBO:31 - Send mail with id=a28043cc-1fe4-4cad-82c1-10a52f76fc29 
+INFO  2019-03-07 16:02 ServerBO:44 - Removing mails from file 
+INFO  2019-03-07 16:03 ServerBO:58 - Removing all mails 
+INFO  2019-03-07 16:03 ServerBO:44 - Removing mails from file 
+INFO  2019-03-07 16:03 ServerBO:53 - No mails to remove 
+INFO  2019-03-07 16:03 ServerBO:58 - Removing all mails 
+INFO  2019-03-07 16:03 ServerBO:44 - Removing mails from file 
+INFO  2019-03-07 16:03 ServerBO:53 - No mails to remove 
+INFO  2019-03-07 16:03 ServerBO:58 - Removing all mails 
+INFO  2019-03-07 16:03 ServerBO:44 - Removing mails from file 
+INFO  2019-03-07 16:03 ServerBO:53 - No mails to remove 
+INFO  2019-03-10 19:45 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 19:45 ServerBO:79 - Get mails by Title: SomeTitl5e 
+INFO  2019-03-10 22:59 ServerBO:66 - Get all mails from file 
+INFO  2019-03-10 22:59 ServerBO:68 - Method result: 
+INFO  2019-03-10 23:09 ServerBO:66 - Get all mails from file 
+INFO  2019-03-10 23:09 ServerBO:68 - Method result: 
+WARN  2019-03-10 23:09 MailServiceImpl:60 - There is no mails on server 

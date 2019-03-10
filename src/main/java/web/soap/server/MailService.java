@@ -12,7 +12,7 @@ public interface MailService {
 
     boolean remove(List<Mail> mail);
 
-    void removeAll();
+    boolean clearMails();
 
     List<Mail> getAll();
 

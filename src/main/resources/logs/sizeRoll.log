@@ -208,3 +208,58 @@ INFO  2019-03-07 16:03 ServerBO:53 - No mails to remove
 INFO  2019-03-07 16:03 ServerBO:58 - Removing all mails 
 INFO  2019-03-07 16:03 ServerBO:44 - Removing mails from file 
 INFO  2019-03-07 16:03 ServerBO:53 - No mails to remove 
+INFO  2019-03-10 19:45 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 19:45 ServerBO:79 - Get mails by Title: SomeTitl5e 
+INFO  2019-03-10 22:59 ServerBO:66 - Get all mails from file 
+INFO  2019-03-10 22:59 ServerBO:68 - Method result: 
+INFO  2019-03-10 23:09 ServerBO:66 - Get all mails from file 
+INFO  2019-03-10 23:09 ServerBO:68 - Method result: 
+WARN  2019-03-10 23:09 MailServiceImpl:60 - There is no mails on server 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=aa02de04-23cd-4c0b-b918-5ccc11b27068 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=df8f16ae-f307-406b-9b95-049214a6c668 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=7bb4d24c-58fd-4daf-939a-ea9d5ac74d1b 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=dea156da-5d75-45b2-98cf-7b6cf5d0f21f 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=0e77fff0-4acd-470e-a525-bcc1d4a79104 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=45d7f803-7258-4c28-8fa9-ccad21c87105 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=43eeaac7-e3f8-45f7-94a4-ff3ed7785b3d 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=1af6b18a-2615-4cc5-aad8-1f92835d9097 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=6f3789fc-7f98-4e4f-b406-ce707a259a67 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=e6ddac7d-0d75-47f8-a0f5-ab8e36ae9561 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email08@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email07@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email06@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email05@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email02@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email01@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email09@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email04@test.com 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result:Mail{id='aa02de04-23cd-4c0b-b918-5ccc11b27068', receiver='email08@test.com', title='Title 8 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result:Mail{id='1af6b18a-2615-4cc5-aad8-1f92835d9097', receiver='email06@test.com', title='Title 6 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result:Mail{id='43eeaac7-e3f8-45f7-94a4-ff3ed7785b3d', receiver='email05@test.com', title='Title 5 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result:Mail{id='6f3789fc-7f98-4e4f-b406-ce707a259a67', receiver='email07@test.com', title='Title 7 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result: 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result: 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result: 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email03@test.com 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result: 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result: 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email010@test.com 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result:Mail{id='df8f16ae-f307-406b-9b95-049214a6c668', receiver='email010@test.com', title='Title 10 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:26 ServerBO:66 - Get all mails from file 
+INFO  2019-03-10 23:26 ServerBO:68 - Method result:Mail{id='aa02de04-23cd-4c0b-b918-5ccc11b27068', receiver='email08@test.com', title='Title 8 Sun Mar 10 23:25:05 EET 2019'}, Mail{id='6f3789fc-7f98-4e4f-b406-ce707a259a67', receiver='email07@test.com', title='Title 7 Sun Mar 10 23:25:05 EET 2019'}, Mail{id='1af6b18a-2615-4cc5-aad8-1f92835d9097', receiver='email06@test.com', title='Title 6 Sun Mar 10 23:25:05 EET 2019'}, Mail{id='43eeaac7-e3f8-45f7-94a4-ff3ed7785b3d', receiver='email05@test.com', title='Title 5 Sun Mar 10 23:25:05 EET 2019'}, Mail{id='df8f16ae-f307-406b-9b95-049214a6c668', receiver='email010@test.com', title='Title 10 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:29 ServerBO:73 - Get mails by email: null 
+INFO  2019-03-10 23:29 ServerBO:80 - Method result: 
+WARN  2019-03-10 23:29 MailServiceImpl:87 - There is no mail(s) with given parameter: [null] 
+INFO  2019-03-10 23:29 ServerBO:73 - Get mails by email: null 
+INFO  2019-03-10 23:29 ServerBO:80 - Method result: 
+WARN  2019-03-10 23:29 MailServiceImpl:87 - There is no mail(s) with given parameter: [null] 

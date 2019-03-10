@@ -25,7 +25,7 @@ public interface MailService {
     @Path("/mails")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces("application/json; charset=UTF-8")
-    Response removeAll();
+    Response clearMails();
 
     @GET
     @Path("/mails")
@@ -33,19 +33,19 @@ public interface MailService {
     Response getAll();
 
     @GET
-    @Path("/mails/{email}")
+    @Path("/mails/byEmail/{email}")
     @Consumes("text/plain; charset=UTF-8")
     @Produces("application/json; charset=UTF-8")
     Response findByEmail(@PathParam("email") String email);
 
     @GET
-    @Path("/mails/{title}")
+    @Path("/mails/byTitle/{title}")
     @Consumes("text/plain; charset=UTF-8")
     @Produces("application/json; charset=UTF-8")
     Response findByTitle(@PathParam("title") String title);
 
     @GET
-    @Path("/mail/{id}")
+    @Path("/mail/byId/{id}")
     @Consumes("text/plain; charset=UTF-8")
     @Produces("application/json; charset=UTF-8")
     Response findById(@PathParam("id") String id);

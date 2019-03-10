@@ -54,14 +54,19 @@ public class ServerBO {
         return false;
     }
 
-    public void removeAll() {
+    public boolean removeAll() {
         LOG.info("Removing all mails");
         MailSerializer.write(new ArrayList<>());
+        if (MailSerializer.read().size()>0)
+            return false;
+        return true;
     }
 
     public List<Mail> getAll() {
         LOG.info("Get all mails from file");
-        return MailSerializer.read();
+        List<Mail> allMails = MailSerializer.read();
+        LOG.info("Method result:" + mailsToString(allMails));
+        return allMails;
     }
 
     public List<Mail> findByEmail(String email) {
@@ -72,6 +77,7 @@ public class ServerBO {
             if (m.getReceiver().equalsIgnoreCase(email))
                 mailsByEmail.add(m);
         }
+        LOG.info("Method result:" + mailsToString(mailsByEmail));
         return mailsByEmail;
     }
 
@@ -83,6 +89,7 @@ public class ServerBO {
             if (m.getTitle().toLowerCase().contains(title.toLowerCase()))
                 mailsByTitle.add(m);
         }
+        LOG.info("Method result:" + mailsToString(mailsByTitle));
         return mailsByTitle;
     }
 
@@ -95,9 +102,9 @@ public class ServerBO {
                 return m;
         }
         LOG.info("Mail with id: " + id + "doesn't exist");
-        throw new ServiceException(new ServiceFaultInfo(FaultMessage.EMAIL_NOT_FOUND, id));
+        throw new ServiceException(new ServiceFaultInfo(FaultMessage.MAIL_NOT_FOUND, id));
     }
-    //TODO Рефакторнути. Методи в класах імплементації замінити одним методом тут.
+
     private String mailsToString(List<Mail> list) {
         return list.stream().map(Object::toString)
                 .collect(Collectors.joining(", "));

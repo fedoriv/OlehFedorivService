@@ -10,7 +10,6 @@ import web.serverBO.ServerBO;
 
 import javax.ws.rs.core.Response;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class MailServiceImpl implements MailService{
 
@@ -26,18 +25,28 @@ public class MailServiceImpl implements MailService{
     @Override
     public Response send(Mail mail) {
         if(server.send(mail)){
-
+            LOG.info("");
+            response = Response.ok().entity(mail).build();
+        } else {
+            faultInfo = new ServiceFaultInfo(FaultMessage.MAIL_ALREADY_EXIST, mail);
+            response = Response.status(Response.Status.NOT_ACCEPTABLE).entity(faultInfo).build();
         }
-        return null;
+        return response;
     }
 
     @Override
     public Response remove(List<Mail> mail) {
-        return null;
+
+        if (server.remove(mail)) {
+            response = Response.ok().build();
+        } else {
+            responseFault(Response.Status.NOT_FOUND, new ServiceFaultInfo(FaultMessage.MAIL_NOT_FOUND, mail.toArray()));
+        }
+        return response;
     }
 
     @Override
-    public Response removeAll() {
+    public Response clearMails() {
         server.removeAll();
         return response = Response.ok().build();
     }
@@ -47,9 +56,10 @@ public class MailServiceImpl implements MailService{
         List<Mail> mails = server.getAll();
 
         if (mails.size()==0) {
+            faultInfo = new ServiceFaultInfo(FaultMessage.EMPTY_MAIL_LIST);
+            LOG.warn(faultInfo.getMessage());
             response = Response.status(Response.Status.NOT_FOUND).entity(faultInfo).build();
         } else {
-            LOG.info("Method result:" + mailsToString(mails));
             response = Response.ok().entity(mails).build();
         }
         return response;
@@ -60,12 +70,10 @@ public class MailServiceImpl implements MailService{
         List<Mail> mails = server.findByEmail(email);
 
         if (mails.size()==0) {
-            faultInfo = new ServiceFaultInfo(FaultMessage.EMAIL_NOT_FOUND, email);
+            faultInfo = new ServiceFaultInfo(FaultMessage.MAIL_NOT_FOUND, email);
             LOG.warn(faultInfo.getMessage());
-
             response = Response.status(Response.Status.NOT_FOUND).entity(faultInfo).build();
         } else {
-            LOG.info("Method result:" + mailsToString(mails));
             response = Response.ok().entity(mails).build();
         }
         return response;
@@ -75,11 +83,10 @@ public class MailServiceImpl implements MailService{
     public Response findByTitle(String title) {
         List<Mail> mails = server.findByEmail(title);
         if (mails.size()==0) {
-            faultInfo = new ServiceFaultInfo(FaultMessage.EMAIL_NOT_FOUND, title);
+            faultInfo = new ServiceFaultInfo(FaultMessage.MAIL_NOT_FOUND, title);
             LOG.warn(faultInfo.getMessage());
             response = Response.status(Response.Status.NOT_FOUND).entity(faultInfo).build();
         } else {
-            LOG.info("Method result:" + mailsToString(mails));
             response = Response.ok().entity(mails).build();
         }
         return response;
@@ -90,16 +97,14 @@ public class MailServiceImpl implements MailService{
         try {
             Mail mail = server.findById(id);
             response = Response.ok().entity(mail).build();
-            LOG.info("method result:" + id);
         } catch (ServiceException e){
-            LOG.warn(e.getServiceFaultInfo());
-            response = Response.status(Response.Status.NOT_FOUND).entity(faultInfo).build();
+            responseFault(Response.Status.NOT_FOUND, new ServiceFaultInfo(FaultMessage.MAIL_NOT_FOUND, id));
         }
         return response;
     }
-    //TODO перемістити в ServerBO
-    private String mailsToString(List<Mail> list){
-        return list.stream().map(Object::toString)
-                .collect(Collectors.joining(", "));
+
+    private void responseFault(Response.Status status, ServiceFaultInfo faultInfo){
+        LOG.warn(faultInfo.getMessage());
+        response = Response.status(status).entity(faultInfo).build();
     }
 }
