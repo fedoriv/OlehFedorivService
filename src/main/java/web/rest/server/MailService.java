@@ -16,13 +16,13 @@ public interface MailService {
     Response send(Mail mail);
 
     @DELETE
-    @Path("/mail")
+    @Path("/mails/remove")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces("application/json; charset=UTF-8")
     Response remove(List<Mail> mail);
 
     @DELETE
-    @Path("/mails")
+    @Path("/mails/removeAll")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces("application/json; charset=UTF-8")
     Response clearMails();

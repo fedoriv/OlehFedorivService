@@ -215,3 +215,626 @@ INFO  2019-03-10 22:59 ServerBO:68 - Method result:
 INFO  2019-03-10 23:09 ServerBO:66 - Get all mails from file 
 INFO  2019-03-10 23:09 ServerBO:68 - Method result: 
 WARN  2019-03-10 23:09 MailServiceImpl:60 - There is no mails on server 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:58 - Removing all mails 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=aa02de04-23cd-4c0b-b918-5ccc11b27068 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=df8f16ae-f307-406b-9b95-049214a6c668 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=7bb4d24c-58fd-4daf-939a-ea9d5ac74d1b 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=dea156da-5d75-45b2-98cf-7b6cf5d0f21f 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=0e77fff0-4acd-470e-a525-bcc1d4a79104 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=45d7f803-7258-4c28-8fa9-ccad21c87105 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=43eeaac7-e3f8-45f7-94a4-ff3ed7785b3d 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=1af6b18a-2615-4cc5-aad8-1f92835d9097 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=6f3789fc-7f98-4e4f-b406-ce707a259a67 
+INFO  2019-03-10 23:25 ServerBO:31 - Send mail with id=e6ddac7d-0d75-47f8-a0f5-ab8e36ae9561 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email08@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email07@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email06@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email05@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email02@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email01@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email09@test.com 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email04@test.com 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result:Mail{id='aa02de04-23cd-4c0b-b918-5ccc11b27068', receiver='email08@test.com', title='Title 8 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result:Mail{id='1af6b18a-2615-4cc5-aad8-1f92835d9097', receiver='email06@test.com', title='Title 6 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result:Mail{id='43eeaac7-e3f8-45f7-94a4-ff3ed7785b3d', receiver='email05@test.com', title='Title 5 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result:Mail{id='6f3789fc-7f98-4e4f-b406-ce707a259a67', receiver='email07@test.com', title='Title 7 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result: 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result: 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result: 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email03@test.com 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result: 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result: 
+INFO  2019-03-10 23:25 ServerBO:73 - Get mails by email: email010@test.com 
+INFO  2019-03-10 23:25 ServerBO:80 - Method result:Mail{id='df8f16ae-f307-406b-9b95-049214a6c668', receiver='email010@test.com', title='Title 10 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:26 ServerBO:66 - Get all mails from file 
+INFO  2019-03-10 23:26 ServerBO:68 - Method result:Mail{id='aa02de04-23cd-4c0b-b918-5ccc11b27068', receiver='email08@test.com', title='Title 8 Sun Mar 10 23:25:05 EET 2019'}, Mail{id='6f3789fc-7f98-4e4f-b406-ce707a259a67', receiver='email07@test.com', title='Title 7 Sun Mar 10 23:25:05 EET 2019'}, Mail{id='1af6b18a-2615-4cc5-aad8-1f92835d9097', receiver='email06@test.com', title='Title 6 Sun Mar 10 23:25:05 EET 2019'}, Mail{id='43eeaac7-e3f8-45f7-94a4-ff3ed7785b3d', receiver='email05@test.com', title='Title 5 Sun Mar 10 23:25:05 EET 2019'}, Mail{id='df8f16ae-f307-406b-9b95-049214a6c668', receiver='email010@test.com', title='Title 10 Sun Mar 10 23:25:05 EET 2019'} 
+INFO  2019-03-10 23:29 ServerBO:73 - Get mails by email: null 
+INFO  2019-03-10 23:29 ServerBO:80 - Method result: 
+WARN  2019-03-10 23:29 MailServiceImpl:87 - There is no mail(s) with given parameter: [null] 
+INFO  2019-03-10 23:29 ServerBO:73 - Get mails by email: null 
+INFO  2019-03-10 23:29 ServerBO:80 - Method result: 
+WARN  2019-03-10 23:29 MailServiceImpl:87 - There is no mail(s) with given parameter: [null] 
+INFO  2019-03-11 09:41 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 09:41 ServerBO:31 - Send mail with id=null 
+INFO  2019-03-11 09:43 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 09:43 ServerBO:68 - Method result:Mail{id='null', receiver='xXx@ukr.rrrr', title='XXX Title'} 
+INFO  2019-03-11 09:48 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 09:48 ServerBO:31 - Send mail with id=ed9a06fd-7ea4-4ccd-a0c9-3ebb1ca8a901 
+INFO  2019-03-11 09:48 ServerBO:85 - Get mails by Title: SomeTitl5e 
+INFO  2019-03-11 09:48 ServerBO:92 - Method result: 
+INFO  2019-03-11 09:49 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 09:49 ServerBO:31 - Send mail with id=null 
+INFO  2019-03-11 10:12 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 10:12 ServerBO:31 - Send mail with id=d4717e0b-718a-45c1-ba71-710265b17ed7 
+INFO  2019-03-11 10:12 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 10:12 ServerBO:31 - Send mail with id=394a252a-eda3-4649-875c-d904044ddc27 
+INFO  2019-03-11 10:12 ServerBO:85 - Get mails by Title: SomeTitl5e 
+INFO  2019-03-11 10:12 ServerBO:92 - Method result: 
+INFO  2019-03-11 10:13 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 10:13 ServerBO:31 - Send mail with id=469fb4c3-b204-4610-b918-7e4fbf155cca 
+INFO  2019-03-11 10:15 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 10:15 ServerBO:31 - Send mail with id=0cfc677c-3256-40da-b129-5cd3c4144f73 
+INFO  2019-03-11 10:16 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 10:16 ServerBO:31 - Send mail with id=b51c75e8-21b1-4f33-8dc8-885d37a83969 
+INFO  2019-03-11 10:44 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 10:44 ServerBO:31 - Send mail with id=a0e4b47f-51ec-4911-8221-3f254db69a8a 
+INFO  2019-03-11 10:44 ServerBO:73 - Get mails by email: email01@test.com 
+INFO  2019-03-11 10:44 ServerBO:80 - Method result:Mail{id='a0e4b47f-51ec-4911-8221-3f254db69a8a', receiver='email01@test.com', title='Title 1 Mon Mar 11 10:44:07 EET 2019'} 
+INFO  2019-03-11 10:44 ServerBO:31 - Send mail with id=07c389e3-0907-423c-8303-3e94b845b9f1 
+INFO  2019-03-11 10:44 ServerBO:73 - Get mails by email: email02@test.com 
+INFO  2019-03-11 10:44 ServerBO:80 - Method result:Mail{id='07c389e3-0907-423c-8303-3e94b845b9f1', receiver='email02@test.com', title='Title 2 Mon Mar 11 10:44:07 EET 2019'} 
+INFO  2019-03-11 10:44 ServerBO:31 - Send mail with id=8c740c64-2225-469e-9024-11d0cb76ac88 
+INFO  2019-03-11 10:44 ServerBO:73 - Get mails by email: email03@test.com 
+INFO  2019-03-11 10:44 ServerBO:80 - Method result:Mail{id='8c740c64-2225-469e-9024-11d0cb76ac88', receiver='email03@test.com', title='Title 3 Mon Mar 11 10:44:07 EET 2019'} 
+INFO  2019-03-11 10:44 ServerBO:31 - Send mail with id=81819732-f395-49dd-8eb0-42a7a74195f8 
+INFO  2019-03-11 10:44 ServerBO:73 - Get mails by email: email04@test.com 
+INFO  2019-03-11 10:44 ServerBO:80 - Method result:Mail{id='81819732-f395-49dd-8eb0-42a7a74195f8', receiver='email04@test.com', title='Title 4 Mon Mar 11 10:44:07 EET 2019'} 
+INFO  2019-03-11 10:44 ServerBO:31 - Send mail with id=a8007b96-7ec3-48d9-8738-4b866bf493a8 
+INFO  2019-03-11 10:44 ServerBO:73 - Get mails by email: email05@test.com 
+INFO  2019-03-11 10:44 ServerBO:80 - Method result:Mail{id='a8007b96-7ec3-48d9-8738-4b866bf493a8', receiver='email05@test.com', title='Title 5 Mon Mar 11 10:44:07 EET 2019'} 
+INFO  2019-03-11 10:44 ServerBO:31 - Send mail with id=8b9987a0-9d51-47bb-9ba1-9183b3aabd93 
+INFO  2019-03-11 10:44 ServerBO:73 - Get mails by email: email06@test.com 
+INFO  2019-03-11 10:44 ServerBO:80 - Method result:Mail{id='8b9987a0-9d51-47bb-9ba1-9183b3aabd93', receiver='email06@test.com', title='Title 6 Mon Mar 11 10:44:07 EET 2019'} 
+INFO  2019-03-11 10:44 ServerBO:31 - Send mail with id=33ac3526-bce4-4f26-ab20-20cf38e7c9f1 
+INFO  2019-03-11 10:44 ServerBO:73 - Get mails by email: email07@test.com 
+INFO  2019-03-11 10:44 ServerBO:80 - Method result:Mail{id='33ac3526-bce4-4f26-ab20-20cf38e7c9f1', receiver='email07@test.com', title='Title 7 Mon Mar 11 10:44:07 EET 2019'} 
+INFO  2019-03-11 10:44 ServerBO:31 - Send mail with id=920bc996-9546-4332-a16b-621539b84020 
+INFO  2019-03-11 10:44 ServerBO:73 - Get mails by email: email08@test.com 
+INFO  2019-03-11 10:44 ServerBO:80 - Method result:Mail{id='920bc996-9546-4332-a16b-621539b84020', receiver='email08@test.com', title='Title 8 Mon Mar 11 10:44:07 EET 2019'} 
+INFO  2019-03-11 10:44 ServerBO:31 - Send mail with id=b682c06d-6341-471e-b156-0b4693a1ef04 
+INFO  2019-03-11 10:44 ServerBO:73 - Get mails by email: email09@test.com 
+INFO  2019-03-11 10:44 ServerBO:80 - Method result:Mail{id='b682c06d-6341-471e-b156-0b4693a1ef04', receiver='email09@test.com', title='Title 9 Mon Mar 11 10:44:07 EET 2019'} 
+INFO  2019-03-11 10:44 ServerBO:31 - Send mail with id=3773d173-fb80-43a7-a4d8-9c28c05fdb5e 
+INFO  2019-03-11 10:44 ServerBO:73 - Get mails by email: email010@test.com 
+INFO  2019-03-11 10:44 ServerBO:80 - Method result:Mail{id='3773d173-fb80-43a7-a4d8-9c28c05fdb5e', receiver='email010@test.com', title='Title 10 Mon Mar 11 10:44:07 EET 2019'} 
+INFO  2019-03-11 10:47 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 10:47 ServerBO:31 - Send mail with id=e26c177f-246d-419c-989b-71f069db2df2 
+INFO  2019-03-11 10:47 ServerBO:73 - Get mails by email: email01@test.com 
+INFO  2019-03-11 10:47 ServerBO:80 - Method result:Mail{id='e26c177f-246d-419c-989b-71f069db2df2', receiver='email01@test.com', title='Title 1 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 10:47 ServerBO:31 - Send mail with id=d90d6db5-a64f-471b-be3f-b89952bfe31b 
+INFO  2019-03-11 10:47 ServerBO:73 - Get mails by email: email02@test.com 
+INFO  2019-03-11 10:47 ServerBO:80 - Method result:Mail{id='d90d6db5-a64f-471b-be3f-b89952bfe31b', receiver='email02@test.com', title='Title 2 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 10:47 ServerBO:31 - Send mail with id=af05f51b-94ee-4b88-870c-21c615d08018 
+INFO  2019-03-11 10:47 ServerBO:73 - Get mails by email: email03@test.com 
+INFO  2019-03-11 10:47 ServerBO:80 - Method result:Mail{id='af05f51b-94ee-4b88-870c-21c615d08018', receiver='email03@test.com', title='Title 3 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 10:47 ServerBO:31 - Send mail with id=f3e946e1-f6e8-4b65-b0f3-a546214c07be 
+INFO  2019-03-11 10:47 ServerBO:73 - Get mails by email: email04@test.com 
+INFO  2019-03-11 10:47 ServerBO:80 - Method result:Mail{id='f3e946e1-f6e8-4b65-b0f3-a546214c07be', receiver='email04@test.com', title='Title 4 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 10:47 ServerBO:31 - Send mail with id=8b570597-d598-4895-8903-58ebcaa7817e 
+INFO  2019-03-11 10:47 ServerBO:73 - Get mails by email: email05@test.com 
+INFO  2019-03-11 10:47 ServerBO:80 - Method result:Mail{id='8b570597-d598-4895-8903-58ebcaa7817e', receiver='email05@test.com', title='Title 5 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 10:47 ServerBO:31 - Send mail with id=32072ca2-c6e1-456a-8038-0e386f61028b 
+INFO  2019-03-11 10:47 ServerBO:73 - Get mails by email: email06@test.com 
+INFO  2019-03-11 10:47 ServerBO:80 - Method result:Mail{id='32072ca2-c6e1-456a-8038-0e386f61028b', receiver='email06@test.com', title='Title 6 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 10:47 ServerBO:31 - Send mail with id=e2f72700-b10a-41e7-9f2f-b0a4bf8dbfb0 
+INFO  2019-03-11 10:47 ServerBO:73 - Get mails by email: email07@test.com 
+INFO  2019-03-11 10:47 ServerBO:80 - Method result:Mail{id='e2f72700-b10a-41e7-9f2f-b0a4bf8dbfb0', receiver='email07@test.com', title='Title 7 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 10:47 ServerBO:31 - Send mail with id=fc9c23a6-ca57-4507-a50b-e49e7e7886a7 
+INFO  2019-03-11 10:47 ServerBO:73 - Get mails by email: email08@test.com 
+INFO  2019-03-11 10:47 ServerBO:80 - Method result:Mail{id='fc9c23a6-ca57-4507-a50b-e49e7e7886a7', receiver='email08@test.com', title='Title 8 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 10:47 ServerBO:31 - Send mail with id=22f7ae3a-827f-4b48-89e6-9450af40fbf6 
+INFO  2019-03-11 10:47 ServerBO:73 - Get mails by email: email09@test.com 
+INFO  2019-03-11 10:47 ServerBO:80 - Method result:Mail{id='22f7ae3a-827f-4b48-89e6-9450af40fbf6', receiver='email09@test.com', title='Title 9 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 10:47 ServerBO:31 - Send mail with id=d076f6bb-7136-4e81-9f10-6a6c4ad08f5d 
+INFO  2019-03-11 10:47 ServerBO:73 - Get mails by email: email010@test.com 
+INFO  2019-03-11 10:47 ServerBO:80 - Method result:Mail{id='d076f6bb-7136-4e81-9f10-6a6c4ad08f5d', receiver='email010@test.com', title='Title 10 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 10:52 ServerBO:73 - Get mails by email: Title 
+INFO  2019-03-11 10:52 ServerBO:80 - Method result: 
+WARN  2019-03-11 10:52 MailServiceImpl:101 - There is no mail(s) with given parameter: [Title] 
+INFO  2019-03-11 10:57 ServerBO:73 - Get mails by email: Title 1 
+INFO  2019-03-11 10:57 ServerBO:80 - Method result: 
+WARN  2019-03-11 10:57 MailServiceImpl:101 - There is no mail(s) with given parameter: [Title 1] 
+INFO  2019-03-11 10:57 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 10:57 ServerBO:53 - Removing failed. No mails to remove 
+INFO  2019-03-11 10:57 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 10:57 ServerBO:68 - Method result:Mail{id='e26c177f-246d-419c-989b-71f069db2df2', receiver='email01@test.com', title='Title 1 Mon Mar 11 10:47:58 EET 2019'}, Mail{id='d90d6db5-a64f-471b-be3f-b89952bfe31b', receiver='email02@test.com', title='Title 2 Mon Mar 11 10:47:58 EET 2019'}, Mail{id='af05f51b-94ee-4b88-870c-21c615d08018', receiver='email03@test.com', title='Title 3 Mon Mar 11 10:47:58 EET 2019'}, Mail{id='f3e946e1-f6e8-4b65-b0f3-a546214c07be', receiver='email04@test.com', title='Title 4 Mon Mar 11 10:47:58 EET 2019'}, Mail{id='8b570597-d598-4895-8903-58ebcaa7817e', receiver='email05@test.com', title='Title 5 Mon Mar 11 10:47:58 EET 2019'}, Mail{id='32072ca2-c6e1-456a-8038-0e386f61028b', receiver='email06@test.com', title='Title 6 Mon Mar 11 10:47:58 EET 2019'}, Mail{id='e2f72700-b10a-41e7-9f2f-b0a4bf8dbfb0', receiver='email07@test.com', title='Title 7 Mon Mar 11 10:47:58 EET 2019'}, Mail{id='fc9c23a6-ca57-4507-a50b-e49e7e7886a7', receiver='email08@test.com', title='Title 8 Mon Mar 11 10:47:58 EET 2019'}, Mail{id='22f7ae3a-827f-4b48-89e6-9450af40fbf6', receiver='email09@test.com', title='Title 9 Mon Mar 11 10:47:58 EET 2019'}, Mail{id='d076f6bb-7136-4e81-9f10-6a6c4ad08f5d', receiver='email010@test.com', title='Title 10 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 11:01 ServerBO:85 - Get mails by Title: Title 1 
+INFO  2019-03-11 11:01 ServerBO:92 - Method result:Mail{id='e26c177f-246d-419c-989b-71f069db2df2', receiver='email01@test.com', title='Title 1 Mon Mar 11 10:47:58 EET 2019'}, Mail{id='d076f6bb-7136-4e81-9f10-6a6c4ad08f5d', receiver='email010@test.com', title='Title 10 Mon Mar 11 10:47:58 EET 2019'} 
+INFO  2019-03-11 11:01 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 11:01 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:01 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:01 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:02 ServerBO:31 - Send mail with id=dad77c76-7dd4-4374-b06d-265f391eb613 
+INFO  2019-03-11 11:02 ServerBO:73 - Get mails by email: email01@test.com 
+INFO  2019-03-11 11:02 ServerBO:80 - Method result:Mail{id='dad77c76-7dd4-4374-b06d-265f391eb613', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:02:43 EET 2019'} 
+INFO  2019-03-11 11:02 ServerBO:31 - Send mail with id=764ed328-d0ae-45d0-9896-ee0737598540 
+INFO  2019-03-11 11:02 ServerBO:73 - Get mails by email: email02@test.com 
+INFO  2019-03-11 11:02 ServerBO:80 - Method result:Mail{id='764ed328-d0ae-45d0-9896-ee0737598540', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:02:44 EET 2019'} 
+INFO  2019-03-11 11:02 ServerBO:31 - Send mail with id=06c405d5-9fec-497d-8048-63c22bddc2ff 
+INFO  2019-03-11 11:02 ServerBO:73 - Get mails by email: email03@test.com 
+INFO  2019-03-11 11:02 ServerBO:80 - Method result:Mail{id='06c405d5-9fec-497d-8048-63c22bddc2ff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:02:44 EET 2019'} 
+INFO  2019-03-11 11:02 ServerBO:31 - Send mail with id=93ec7409-0a48-4dd1-badd-b141104cfa7a 
+INFO  2019-03-11 11:02 ServerBO:73 - Get mails by email: email04@test.com 
+INFO  2019-03-11 11:02 ServerBO:80 - Method result:Mail{id='93ec7409-0a48-4dd1-badd-b141104cfa7a', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:02:44 EET 2019'} 
+INFO  2019-03-11 11:02 ServerBO:31 - Send mail with id=899d0880-d6de-406e-8ac9-1a99b400b13a 
+INFO  2019-03-11 11:02 ServerBO:73 - Get mails by email: email05@test.com 
+INFO  2019-03-11 11:02 ServerBO:80 - Method result:Mail{id='899d0880-d6de-406e-8ac9-1a99b400b13a', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:02:44 EET 2019'} 
+INFO  2019-03-11 11:02 ServerBO:31 - Send mail with id=3167432b-40d9-40bc-a862-41469e8f5665 
+INFO  2019-03-11 11:02 ServerBO:73 - Get mails by email: email06@test.com 
+INFO  2019-03-11 11:02 ServerBO:80 - Method result:Mail{id='3167432b-40d9-40bc-a862-41469e8f5665', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:02:44 EET 2019'} 
+INFO  2019-03-11 11:02 ServerBO:31 - Send mail with id=a845e1f3-e62e-46e8-a700-40cd0875afbc 
+INFO  2019-03-11 11:02 ServerBO:73 - Get mails by email: email07@test.com 
+INFO  2019-03-11 11:02 ServerBO:80 - Method result:Mail{id='a845e1f3-e62e-46e8-a700-40cd0875afbc', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:02:44 EET 2019'} 
+INFO  2019-03-11 11:02 ServerBO:31 - Send mail with id=4c7764c9-e8ae-495a-bebc-931ec2f5c848 
+INFO  2019-03-11 11:02 ServerBO:73 - Get mails by email: email08@test.com 
+INFO  2019-03-11 11:02 ServerBO:80 - Method result:Mail{id='4c7764c9-e8ae-495a-bebc-931ec2f5c848', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:02:44 EET 2019'} 
+INFO  2019-03-11 11:02 ServerBO:31 - Send mail with id=c65db41e-bafb-482d-b64e-0610117a94ee 
+INFO  2019-03-11 11:02 ServerBO:73 - Get mails by email: email09@test.com 
+INFO  2019-03-11 11:02 ServerBO:80 - Method result:Mail{id='c65db41e-bafb-482d-b64e-0610117a94ee', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:02:44 EET 2019'} 
+INFO  2019-03-11 11:02 ServerBO:31 - Send mail with id=89bfec1f-6d14-4825-b93e-cf3db79eebed 
+INFO  2019-03-11 11:02 ServerBO:73 - Get mails by email: email010@test.com 
+INFO  2019-03-11 11:02 ServerBO:80 - Method result:Mail{id='89bfec1f-6d14-4825-b93e-cf3db79eebed', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:02:44 EET 2019'} 
+INFO  2019-03-11 11:03 ServerBO:85 - Get mails by Title: Title 1 
+INFO  2019-03-11 11:03 ServerBO:92 - Method result:Mail{id='dad77c76-7dd4-4374-b06d-265f391eb613', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:02:43 EET 2019'}, Mail{id='89bfec1f-6d14-4825-b93e-cf3db79eebed', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:02:44 EET 2019'} 
+INFO  2019-03-11 11:03 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 11:03 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:03 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:03 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:16 ServerBO:85 - Get mails by Title: Title 1 
+INFO  2019-03-11 11:16 ServerBO:92 - Method result: 
+WARN  2019-03-11 11:16 MailServiceImpl:101 - There is no mail(s) with given parameter: [Title 1] 
+INFO  2019-03-11 11:16 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 11:16 ServerBO:53 - Removing failed. No mails to remove 
+INFO  2019-03-11 11:16 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:16 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:16 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:19 ServerBO:85 - Get mails by Title: Title 1 
+INFO  2019-03-11 11:19 ServerBO:92 - Method result: 
+WARN  2019-03-11 11:19 MailServiceImpl:101 - There is no mail(s) with given parameter: [Title 1] 
+INFO  2019-03-11 11:19 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 11:19 ServerBO:53 - Removing failed. No mails to remove 
+INFO  2019-03-11 11:19 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:19 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:19 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:19 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:19 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:19 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:19 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:19 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:19 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:19 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:19 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:19 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:20 ServerBO:31 - Send mail with id=ad6fb518-0579-4c35-bb5a-6e84357d17a2 
+INFO  2019-03-11 11:20 ServerBO:73 - Get mails by email: email01@test.com 
+INFO  2019-03-11 11:20 ServerBO:80 - Method result:Mail{id='ad6fb518-0579-4c35-bb5a-6e84357d17a2', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:20 ServerBO:31 - Send mail with id=3afc1ac5-1cd8-4a9a-9f96-6706cea160e0 
+INFO  2019-03-11 11:20 ServerBO:73 - Get mails by email: email02@test.com 
+INFO  2019-03-11 11:20 ServerBO:80 - Method result:Mail{id='3afc1ac5-1cd8-4a9a-9f96-6706cea160e0', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:20 ServerBO:31 - Send mail with id=201ea978-a10f-4ae3-bce2-a7109b04ca8b 
+INFO  2019-03-11 11:20 ServerBO:73 - Get mails by email: email03@test.com 
+INFO  2019-03-11 11:20 ServerBO:80 - Method result:Mail{id='201ea978-a10f-4ae3-bce2-a7109b04ca8b', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:20 ServerBO:31 - Send mail with id=8329f653-a09b-4401-8de9-012bfdc0de3c 
+INFO  2019-03-11 11:20 ServerBO:73 - Get mails by email: email04@test.com 
+INFO  2019-03-11 11:20 ServerBO:80 - Method result:Mail{id='8329f653-a09b-4401-8de9-012bfdc0de3c', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:20 ServerBO:31 - Send mail with id=34d4f945-2894-4b86-a330-8a1ea11231a8 
+INFO  2019-03-11 11:20 ServerBO:73 - Get mails by email: email05@test.com 
+INFO  2019-03-11 11:20 ServerBO:80 - Method result:Mail{id='34d4f945-2894-4b86-a330-8a1ea11231a8', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:20 ServerBO:31 - Send mail with id=fdf67727-56bd-4b80-84d8-a0244489738c 
+INFO  2019-03-11 11:20 ServerBO:73 - Get mails by email: email06@test.com 
+INFO  2019-03-11 11:20 ServerBO:80 - Method result:Mail{id='fdf67727-56bd-4b80-84d8-a0244489738c', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:20 ServerBO:31 - Send mail with id=1fd05f55-7451-48b8-b4c6-2d8e2914f3bd 
+INFO  2019-03-11 11:20 ServerBO:73 - Get mails by email: email07@test.com 
+INFO  2019-03-11 11:20 ServerBO:80 - Method result:Mail{id='1fd05f55-7451-48b8-b4c6-2d8e2914f3bd', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:20 ServerBO:31 - Send mail with id=b5b8633c-b41d-47b0-a394-439380d1a116 
+INFO  2019-03-11 11:20 ServerBO:73 - Get mails by email: email08@test.com 
+INFO  2019-03-11 11:20 ServerBO:80 - Method result:Mail{id='b5b8633c-b41d-47b0-a394-439380d1a116', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:20 ServerBO:31 - Send mail with id=ee76dada-1648-4b16-a308-07c466b4f0d4 
+INFO  2019-03-11 11:20 ServerBO:73 - Get mails by email: email09@test.com 
+INFO  2019-03-11 11:20 ServerBO:80 - Method result:Mail{id='ee76dada-1648-4b16-a308-07c466b4f0d4', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:20 ServerBO:31 - Send mail with id=032b2c8f-4db2-4f8c-abcf-e7f455f1726d 
+INFO  2019-03-11 11:20 ServerBO:73 - Get mails by email: email010@test.com 
+INFO  2019-03-11 11:20 ServerBO:80 - Method result:Mail{id='032b2c8f-4db2-4f8c-abcf-e7f455f1726d', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:24 ServerBO:85 - Get mails by Title: Title 1 
+INFO  2019-03-11 11:24 ServerBO:92 - Method result:Mail{id='ad6fb518-0579-4c35-bb5a-6e84357d17a2', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:20:12 EET 2019'}, Mail{id='032b2c8f-4db2-4f8c-abcf-e7f455f1726d', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:20:12 EET 2019'} 
+INFO  2019-03-11 11:24 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 11:24 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:24 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:24 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:36 ServerBO:58 - Removing all mails 
+INFO  2019-03-11 11:36 ServerBO:31 - Send mail with id=5fc07e40-0a77-4ed9-a05c-8f982bb500c3 
+INFO  2019-03-11 11:36 ServerBO:73 - Get mails by email: email01@test.com 
+INFO  2019-03-11 11:36 ServerBO:80 - Method result:Mail{id='5fc07e40-0a77-4ed9-a05c-8f982bb500c3', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:31 - Send mail with id=8399ef90-2a47-4175-9e65-a1bde4a73a68 
+INFO  2019-03-11 11:36 ServerBO:73 - Get mails by email: email02@test.com 
+INFO  2019-03-11 11:36 ServerBO:80 - Method result:Mail{id='8399ef90-2a47-4175-9e65-a1bde4a73a68', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:31 - Send mail with id=582cb95a-4c5b-4d60-b90b-9d1707298132 
+INFO  2019-03-11 11:36 ServerBO:73 - Get mails by email: email03@test.com 
+INFO  2019-03-11 11:36 ServerBO:80 - Method result:Mail{id='582cb95a-4c5b-4d60-b90b-9d1707298132', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:31 - Send mail with id=0e95d07b-8340-453e-82b5-34e4a26985d3 
+INFO  2019-03-11 11:36 ServerBO:73 - Get mails by email: email04@test.com 
+INFO  2019-03-11 11:36 ServerBO:80 - Method result:Mail{id='0e95d07b-8340-453e-82b5-34e4a26985d3', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:31 - Send mail with id=4d8a0dae-86ef-4ab2-99e6-e64a291b7bd5 
+INFO  2019-03-11 11:36 ServerBO:73 - Get mails by email: email05@test.com 
+INFO  2019-03-11 11:36 ServerBO:80 - Method result:Mail{id='4d8a0dae-86ef-4ab2-99e6-e64a291b7bd5', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:31 - Send mail with id=07ecafe4-fb8b-4686-9643-1747320599a3 
+INFO  2019-03-11 11:36 ServerBO:73 - Get mails by email: email06@test.com 
+INFO  2019-03-11 11:36 ServerBO:80 - Method result:Mail{id='07ecafe4-fb8b-4686-9643-1747320599a3', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:31 - Send mail with id=26082781-9742-4be6-82e9-50950d21ee14 
+INFO  2019-03-11 11:36 ServerBO:73 - Get mails by email: email07@test.com 
+INFO  2019-03-11 11:36 ServerBO:80 - Method result:Mail{id='26082781-9742-4be6-82e9-50950d21ee14', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:31 - Send mail with id=c8f7415e-1367-41bd-8c41-80ec76ef0896 
+INFO  2019-03-11 11:36 ServerBO:73 - Get mails by email: email08@test.com 
+INFO  2019-03-11 11:36 ServerBO:80 - Method result:Mail{id='c8f7415e-1367-41bd-8c41-80ec76ef0896', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:31 - Send mail with id=ecb7da8e-1009-441b-8de3-37207459eab0 
+INFO  2019-03-11 11:36 ServerBO:73 - Get mails by email: email09@test.com 
+INFO  2019-03-11 11:36 ServerBO:80 - Method result:Mail{id='ecb7da8e-1009-441b-8de3-37207459eab0', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:31 - Send mail with id=50f5363b-245f-468a-a459-f900484ee35c 
+INFO  2019-03-11 11:36 ServerBO:73 - Get mails by email: email010@test.com 
+INFO  2019-03-11 11:36 ServerBO:80 - Method result:Mail{id='50f5363b-245f-468a-a459-f900484ee35c', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:85 - Get mails by Title: Title 1 
+INFO  2019-03-11 11:36 ServerBO:92 - Method result:Mail{id='5fc07e40-0a77-4ed9-a05c-8f982bb500c3', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:36:04 EET 2019'}, Mail{id='50f5363b-245f-468a-a459-f900484ee35c', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:36:04 EET 2019'} 
+INFO  2019-03-11 11:36 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 11:36 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:36 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:36 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:37 ServerBO:31 - Send mail with id=42dfa680-8c3d-4398-bcf9-a8f3fc222832 
+INFO  2019-03-11 11:37 ServerBO:73 - Get mails by email: email01@test.com 
+INFO  2019-03-11 11:37 ServerBO:80 - Method result:Mail{id='42dfa680-8c3d-4398-bcf9-a8f3fc222832', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:37:17 EET 2019'} 
+INFO  2019-03-11 11:37 ServerBO:31 - Send mail with id=5d16ce0f-5d3a-464d-a200-5f69a0974b98 
+INFO  2019-03-11 11:37 ServerBO:73 - Get mails by email: email02@test.com 
+INFO  2019-03-11 11:37 ServerBO:80 - Method result:Mail{id='5d16ce0f-5d3a-464d-a200-5f69a0974b98', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:37:17 EET 2019'} 
+INFO  2019-03-11 11:37 ServerBO:31 - Send mail with id=75cf8cf9-cc66-4c4e-96e3-64c6e92103ea 
+INFO  2019-03-11 11:37 ServerBO:73 - Get mails by email: email03@test.com 
+INFO  2019-03-11 11:37 ServerBO:80 - Method result:Mail{id='75cf8cf9-cc66-4c4e-96e3-64c6e92103ea', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:37:17 EET 2019'} 
+INFO  2019-03-11 11:37 ServerBO:31 - Send mail with id=5445b1c9-f2ea-4158-ae4d-dc10e1ce9568 
+INFO  2019-03-11 11:37 ServerBO:73 - Get mails by email: email04@test.com 
+INFO  2019-03-11 11:37 ServerBO:80 - Method result:Mail{id='5445b1c9-f2ea-4158-ae4d-dc10e1ce9568', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:37:17 EET 2019'} 
+INFO  2019-03-11 11:37 ServerBO:31 - Send mail with id=aa3bc008-7866-47a8-a35f-e56efa2d584d 
+INFO  2019-03-11 11:37 ServerBO:73 - Get mails by email: email05@test.com 
+INFO  2019-03-11 11:37 ServerBO:80 - Method result:Mail{id='aa3bc008-7866-47a8-a35f-e56efa2d584d', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:37:17 EET 2019'} 
+INFO  2019-03-11 11:37 ServerBO:31 - Send mail with id=ceb95d18-05a0-42e3-96e9-75d7e0e8eb7d 
+INFO  2019-03-11 11:37 ServerBO:73 - Get mails by email: email06@test.com 
+INFO  2019-03-11 11:37 ServerBO:80 - Method result:Mail{id='ceb95d18-05a0-42e3-96e9-75d7e0e8eb7d', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:37:17 EET 2019'} 
+INFO  2019-03-11 11:37 ServerBO:31 - Send mail with id=2fe61dcc-b051-4642-b0fd-924e9c58dd3f 
+INFO  2019-03-11 11:37 ServerBO:73 - Get mails by email: email07@test.com 
+INFO  2019-03-11 11:37 ServerBO:80 - Method result:Mail{id='2fe61dcc-b051-4642-b0fd-924e9c58dd3f', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:37:17 EET 2019'} 
+INFO  2019-03-11 11:37 ServerBO:31 - Send mail with id=aa7e2291-3736-4764-966d-b595f6c17f2f 
+INFO  2019-03-11 11:37 ServerBO:73 - Get mails by email: email08@test.com 
+INFO  2019-03-11 11:37 ServerBO:80 - Method result:Mail{id='aa7e2291-3736-4764-966d-b595f6c17f2f', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:37:17 EET 2019'} 
+INFO  2019-03-11 11:37 ServerBO:31 - Send mail with id=0c0e310e-8f17-4d2c-bf1a-32ec71cce76a 
+INFO  2019-03-11 11:37 ServerBO:73 - Get mails by email: email09@test.com 
+INFO  2019-03-11 11:37 ServerBO:80 - Method result:Mail{id='0c0e310e-8f17-4d2c-bf1a-32ec71cce76a', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:37:17 EET 2019'} 
+INFO  2019-03-11 11:37 ServerBO:31 - Send mail with id=5646d8bb-307f-4430-9622-d6a0bc907819 
+INFO  2019-03-11 11:37 ServerBO:73 - Get mails by email: email010@test.com 
+INFO  2019-03-11 11:37 ServerBO:80 - Method result:Mail{id='5646d8bb-307f-4430-9622-d6a0bc907819', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:37:17 EET 2019'} 
+INFO  2019-03-11 11:37 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 11:37 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:37 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:37 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:37 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:37 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:37 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:37 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:37 ServerBO:68 - Method result: 
+WARN  2019-03-11 11:37 MailServiceImpl:101 - There is no mails on server 
+INFO  2019-03-11 11:49 ServerBO:32 - Send mail with id=62f4e5a6-e334-48c1-a53f-3f3df5465f94 
+INFO  2019-03-11 11:49 ServerBO:79 - Get mails by email: email01@test.com 
+INFO  2019-03-11 11:49 ServerBO:86 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:32 - Send mail with id=90f4f7a4-f087-4b83-8eac-c4e70e2b9eda 
+INFO  2019-03-11 11:49 ServerBO:79 - Get mails by email: email02@test.com 
+INFO  2019-03-11 11:49 ServerBO:86 - Method result:Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:32 - Send mail with id=48d1b0cb-4c39-4994-88d7-05daa14ffbff 
+INFO  2019-03-11 11:49 ServerBO:79 - Get mails by email: email03@test.com 
+INFO  2019-03-11 11:49 ServerBO:86 - Method result:Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:32 - Send mail with id=7cdb7551-9e96-46f8-9b21-88570369ac1e 
+INFO  2019-03-11 11:49 ServerBO:79 - Get mails by email: email04@test.com 
+INFO  2019-03-11 11:49 ServerBO:86 - Method result:Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:32 - Send mail with id=2a46924a-4446-43a1-93ac-0cca175b5917 
+INFO  2019-03-11 11:49 ServerBO:79 - Get mails by email: email05@test.com 
+INFO  2019-03-11 11:49 ServerBO:86 - Method result:Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:32 - Send mail with id=00ec5897-8a78-43eb-b3e4-99d3c944f931 
+INFO  2019-03-11 11:49 ServerBO:79 - Get mails by email: email06@test.com 
+INFO  2019-03-11 11:49 ServerBO:86 - Method result:Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:32 - Send mail with id=54f95e77-787f-4fcf-a719-edbe3ba3700a 
+INFO  2019-03-11 11:49 ServerBO:79 - Get mails by email: email07@test.com 
+INFO  2019-03-11 11:49 ServerBO:86 - Method result:Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:32 - Send mail with id=8142037f-6d65-42dc-a1a8-29920a890b73 
+INFO  2019-03-11 11:49 ServerBO:79 - Get mails by email: email08@test.com 
+INFO  2019-03-11 11:49 ServerBO:86 - Method result:Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:32 - Send mail with id=c41441ac-f0e8-482b-a377-71066ca4cf25 
+INFO  2019-03-11 11:49 ServerBO:79 - Get mails by email: email09@test.com 
+INFO  2019-03-11 11:49 ServerBO:86 - Method result:Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:32 - Send mail with id=add2db9d-d941-4f29-960e-987eacc20ee1 
+INFO  2019-03-11 11:49 ServerBO:79 - Get mails by email: email010@test.com 
+INFO  2019-03-11 11:49 ServerBO:86 - Method result:Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:91 - Get mails by Title: Title 1 
+INFO  2019-03-11 11:49 ServerBO:98 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:49 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:49 ServerBO:72 - Get all mails from file 
+INFO  2019-03-11 11:49 ServerBO:74 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:50 ServerBO:91 - Get mails by Title: Title 2 
+INFO  2019-03-11 11:50 ServerBO:98 - Method result:Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:50 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:50 ServerBO:72 - Get all mails from file 
+INFO  2019-03-11 11:50 ServerBO:74 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:50 ServerBO:91 - Get mails by Title: Title 3 
+INFO  2019-03-11 11:50 ServerBO:98 - Method result:Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:50 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:50 ServerBO:72 - Get all mails from file 
+INFO  2019-03-11 11:50 ServerBO:74 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:50 ServerBO:91 - Get mails by Title: Title 4 
+INFO  2019-03-11 11:50 ServerBO:98 - Method result:Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:50 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:50 ServerBO:72 - Get all mails from file 
+INFO  2019-03-11 11:50 ServerBO:74 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:32 - Send mail with id=e13f4fce-85a5-4593-af3d-38842be1a6fb 
+INFO  2019-03-11 11:54 ServerBO:72 - Get mails by email: email01@test.com 
+INFO  2019-03-11 11:54 ServerBO:79 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='e13f4fce-85a5-4593-af3d-38842be1a6fb', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:32 - Send mail with id=102422e5-51ed-4001-9cfe-a94e148a8fe1 
+INFO  2019-03-11 11:54 ServerBO:72 - Get mails by email: email02@test.com 
+INFO  2019-03-11 11:54 ServerBO:79 - Method result:Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='102422e5-51ed-4001-9cfe-a94e148a8fe1', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:32 - Send mail with id=b87c57dd-fd86-44e1-be0e-69b60176b379 
+INFO  2019-03-11 11:54 ServerBO:72 - Get mails by email: email03@test.com 
+INFO  2019-03-11 11:54 ServerBO:79 - Method result:Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='b87c57dd-fd86-44e1-be0e-69b60176b379', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:32 - Send mail with id=27263ffc-87f2-4961-8f2e-ec327c01b550 
+INFO  2019-03-11 11:54 ServerBO:72 - Get mails by email: email04@test.com 
+INFO  2019-03-11 11:54 ServerBO:79 - Method result:Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='27263ffc-87f2-4961-8f2e-ec327c01b550', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:32 - Send mail with id=cff005ca-5aff-4f67-8884-9acd276424f4 
+INFO  2019-03-11 11:54 ServerBO:72 - Get mails by email: email05@test.com 
+INFO  2019-03-11 11:54 ServerBO:79 - Method result:Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='cff005ca-5aff-4f67-8884-9acd276424f4', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:32 - Send mail with id=2637a208-51ab-4755-ae6e-fb15694d1d68 
+INFO  2019-03-11 11:54 ServerBO:72 - Get mails by email: email06@test.com 
+INFO  2019-03-11 11:54 ServerBO:79 - Method result:Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2637a208-51ab-4755-ae6e-fb15694d1d68', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:32 - Send mail with id=c7e1a869-0f43-4f37-b022-9f8cc02b2ea4 
+INFO  2019-03-11 11:54 ServerBO:72 - Get mails by email: email07@test.com 
+INFO  2019-03-11 11:54 ServerBO:79 - Method result:Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c7e1a869-0f43-4f37-b022-9f8cc02b2ea4', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:32 - Send mail with id=a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4 
+INFO  2019-03-11 11:54 ServerBO:72 - Get mails by email: email08@test.com 
+INFO  2019-03-11 11:54 ServerBO:79 - Method result:Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:32 - Send mail with id=ca04751e-2958-4ac2-ac02-a061e3a1b6b7 
+INFO  2019-03-11 11:54 ServerBO:72 - Get mails by email: email09@test.com 
+INFO  2019-03-11 11:54 ServerBO:79 - Method result:Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='ca04751e-2958-4ac2-ac02-a061e3a1b6b7', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:32 - Send mail with id=cd16c53b-bbb8-4eb4-be36-1945514df2a0 
+INFO  2019-03-11 11:54 ServerBO:72 - Get mails by email: email010@test.com 
+INFO  2019-03-11 11:54 ServerBO:79 - Method result:Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:84 - Get mails by Title: Title 4 
+INFO  2019-03-11 11:54 ServerBO:91 - Method result:Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='27263ffc-87f2-4961-8f2e-ec327c01b550', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:54 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:54 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 11:54 ServerBO:67 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='e13f4fce-85a5-4593-af3d-38842be1a6fb', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='102422e5-51ed-4001-9cfe-a94e148a8fe1', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='b87c57dd-fd86-44e1-be0e-69b60176b379', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='27263ffc-87f2-4961-8f2e-ec327c01b550', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cff005ca-5aff-4f67-8884-9acd276424f4', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='2637a208-51ab-4755-ae6e-fb15694d1d68', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='c7e1a869-0f43-4f37-b022-9f8cc02b2ea4', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='ca04751e-2958-4ac2-ac02-a061e3a1b6b7', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:55 ServerBO:84 - Get mails by Title: Title 1 
+INFO  2019-03-11 11:55 ServerBO:91 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='e13f4fce-85a5-4593-af3d-38842be1a6fb', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:55 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:55 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 11:55 ServerBO:67 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='e13f4fce-85a5-4593-af3d-38842be1a6fb', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='102422e5-51ed-4001-9cfe-a94e148a8fe1', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='b87c57dd-fd86-44e1-be0e-69b60176b379', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='27263ffc-87f2-4961-8f2e-ec327c01b550', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cff005ca-5aff-4f67-8884-9acd276424f4', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='2637a208-51ab-4755-ae6e-fb15694d1d68', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='c7e1a869-0f43-4f37-b022-9f8cc02b2ea4', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='ca04751e-2958-4ac2-ac02-a061e3a1b6b7', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:55 ServerBO:84 - Get mails by Title: Title 10 
+INFO  2019-03-11 11:55 ServerBO:91 - Method result:Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:55 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:55 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 11:55 ServerBO:67 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='e13f4fce-85a5-4593-af3d-38842be1a6fb', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='102422e5-51ed-4001-9cfe-a94e148a8fe1', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='b87c57dd-fd86-44e1-be0e-69b60176b379', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='27263ffc-87f2-4961-8f2e-ec327c01b550', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cff005ca-5aff-4f67-8884-9acd276424f4', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='2637a208-51ab-4755-ae6e-fb15694d1d68', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='c7e1a869-0f43-4f37-b022-9f8cc02b2ea4', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='ca04751e-2958-4ac2-ac02-a061e3a1b6b7', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:55 ServerBO:84 - Get mails by Title: Title 9 
+INFO  2019-03-11 11:55 ServerBO:91 - Method result:Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='ca04751e-2958-4ac2-ac02-a061e3a1b6b7', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:55 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:55 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 11:55 ServerBO:67 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='e13f4fce-85a5-4593-af3d-38842be1a6fb', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='102422e5-51ed-4001-9cfe-a94e148a8fe1', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='b87c57dd-fd86-44e1-be0e-69b60176b379', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='27263ffc-87f2-4961-8f2e-ec327c01b550', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cff005ca-5aff-4f67-8884-9acd276424f4', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='2637a208-51ab-4755-ae6e-fb15694d1d68', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='c7e1a869-0f43-4f37-b022-9f8cc02b2ea4', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='ca04751e-2958-4ac2-ac02-a061e3a1b6b7', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:55 ServerBO:84 - Get mails by Title: Title 8 
+INFO  2019-03-11 11:55 ServerBO:91 - Method result:Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:55 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:55 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 11:55 ServerBO:67 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='e13f4fce-85a5-4593-af3d-38842be1a6fb', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='102422e5-51ed-4001-9cfe-a94e148a8fe1', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='b87c57dd-fd86-44e1-be0e-69b60176b379', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='27263ffc-87f2-4961-8f2e-ec327c01b550', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cff005ca-5aff-4f67-8884-9acd276424f4', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='2637a208-51ab-4755-ae6e-fb15694d1d68', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='c7e1a869-0f43-4f37-b022-9f8cc02b2ea4', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='ca04751e-2958-4ac2-ac02-a061e3a1b6b7', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:58 ServerBO:85 - Get mails by Title: Title 8 
+INFO  2019-03-11 11:58 ServerBO:92 - Method result:Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:58 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:58 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:58 ServerBO:68 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='e13f4fce-85a5-4593-af3d-38842be1a6fb', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='102422e5-51ed-4001-9cfe-a94e148a8fe1', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='b87c57dd-fd86-44e1-be0e-69b60176b379', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='27263ffc-87f2-4961-8f2e-ec327c01b550', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cff005ca-5aff-4f67-8884-9acd276424f4', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='2637a208-51ab-4755-ae6e-fb15694d1d68', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='c7e1a869-0f43-4f37-b022-9f8cc02b2ea4', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='ca04751e-2958-4ac2-ac02-a061e3a1b6b7', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:58 ServerBO:85 - Get mails by Title: Title 10 
+INFO  2019-03-11 11:58 ServerBO:92 - Method result:Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 11:58 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 11:58 ServerBO:66 - Get all mails from file 
+INFO  2019-03-11 11:58 ServerBO:68 - Method result:Mail{id='62f4e5a6-e334-48c1-a53f-3f3df5465f94', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='90f4f7a4-f087-4b83-8eac-c4e70e2b9eda', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='48d1b0cb-4c39-4994-88d7-05daa14ffbff', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='7cdb7551-9e96-46f8-9b21-88570369ac1e', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='2a46924a-4446-43a1-93ac-0cca175b5917', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='00ec5897-8a78-43eb-b3e4-99d3c944f931', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='54f95e77-787f-4fcf-a719-edbe3ba3700a', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='8142037f-6d65-42dc-a1a8-29920a890b73', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='c41441ac-f0e8-482b-a377-71066ca4cf25', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='e13f4fce-85a5-4593-af3d-38842be1a6fb', receiver='email01@test.com', title='Title 1 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='102422e5-51ed-4001-9cfe-a94e148a8fe1', receiver='email02@test.com', title='Title 2 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='b87c57dd-fd86-44e1-be0e-69b60176b379', receiver='email03@test.com', title='Title 3 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='27263ffc-87f2-4961-8f2e-ec327c01b550', receiver='email04@test.com', title='Title 4 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cff005ca-5aff-4f67-8884-9acd276424f4', receiver='email05@test.com', title='Title 5 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='2637a208-51ab-4755-ae6e-fb15694d1d68', receiver='email06@test.com', title='Title 6 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='c7e1a869-0f43-4f37-b022-9f8cc02b2ea4', receiver='email07@test.com', title='Title 7 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='a14253c9-8c89-4b6e-b1cd-da0b1ac87ae4', receiver='email08@test.com', title='Title 8 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='ca04751e-2958-4ac2-ac02-a061e3a1b6b7', receiver='email09@test.com', title='Title 9 Mon Mar 11 11:54:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 12:03 ServerBO:85 - Get mails by Title: Title 10 
+INFO  2019-03-11 12:03 ServerBO:92 - Method result:Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 12:04 ServerBO:85 - Get mails by Title: Title 10 
+INFO  2019-03-11 12:04 ServerBO:92 - Method result:Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 12:04 ServerBO:85 - Get mails by Title: Title 10 
+INFO  2019-03-11 12:04 ServerBO:92 - Method result:Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 12:04 ServerBO:85 - Get mails by Title: Title 10 
+INFO  2019-03-11 12:04 ServerBO:92 - Method result:Mail{id='add2db9d-d941-4f29-960e-987eacc20ee1', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:49:47 EET 2019'}, Mail{id='cd16c53b-bbb8-4eb4-be36-1945514df2a0', receiver='email010@test.com', title='Title 10 Mon Mar 11 11:54:47 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:57 - Removing all mails 
+INFO  2019-03-11 12:10 ServerBO:32 - Send mail with id=c24b776e-c6c5-48de-be4a-52aa80449a97 
+INFO  2019-03-11 12:10 ServerBO:72 - Get mails by email: email01@test.com 
+INFO  2019-03-11 12:10 ServerBO:79 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:32 - Send mail with id=c791f1d9-31fe-4be3-95fa-2918405fb402 
+INFO  2019-03-11 12:10 ServerBO:72 - Get mails by email: email02@test.com 
+INFO  2019-03-11 12:10 ServerBO:79 - Method result:Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:32 - Send mail with id=fa9b4d39-df33-4528-a6a5-c76557274e59 
+INFO  2019-03-11 12:10 ServerBO:72 - Get mails by email: email03@test.com 
+INFO  2019-03-11 12:10 ServerBO:79 - Method result:Mail{id='fa9b4d39-df33-4528-a6a5-c76557274e59', receiver='email03@test.com', title='Title 3 Mon Mar 11 12:10:02 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:32 - Send mail with id=a2c1b281-0684-44fc-9c60-bcba601fd3b3 
+INFO  2019-03-11 12:10 ServerBO:72 - Get mails by email: email04@test.com 
+INFO  2019-03-11 12:10 ServerBO:79 - Method result:Mail{id='a2c1b281-0684-44fc-9c60-bcba601fd3b3', receiver='email04@test.com', title='Title 4 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:32 - Send mail with id=3203ba50-2f55-43b5-84e9-f916cf92b89d 
+INFO  2019-03-11 12:10 ServerBO:72 - Get mails by email: email05@test.com 
+INFO  2019-03-11 12:10 ServerBO:79 - Method result:Mail{id='3203ba50-2f55-43b5-84e9-f916cf92b89d', receiver='email05@test.com', title='Title 5 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:32 - Send mail with id=8258694f-d5a4-4ea5-91ab-01347cef2d98 
+INFO  2019-03-11 12:10 ServerBO:72 - Get mails by email: email06@test.com 
+INFO  2019-03-11 12:10 ServerBO:79 - Method result:Mail{id='8258694f-d5a4-4ea5-91ab-01347cef2d98', receiver='email06@test.com', title='Title 6 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:32 - Send mail with id=6bdadc46-97d3-400d-bb61-8573c4f73a95 
+INFO  2019-03-11 12:10 ServerBO:72 - Get mails by email: email07@test.com 
+INFO  2019-03-11 12:10 ServerBO:79 - Method result:Mail{id='6bdadc46-97d3-400d-bb61-8573c4f73a95', receiver='email07@test.com', title='Title 7 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:32 - Send mail with id=9fb3c0a1-fa25-4c30-9128-eee5c0178798 
+INFO  2019-03-11 12:10 ServerBO:72 - Get mails by email: email08@test.com 
+INFO  2019-03-11 12:10 ServerBO:79 - Method result:Mail{id='9fb3c0a1-fa25-4c30-9128-eee5c0178798', receiver='email08@test.com', title='Title 8 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:32 - Send mail with id=eeb4a730-46a8-4006-80ec-512d56a2f938 
+INFO  2019-03-11 12:10 ServerBO:72 - Get mails by email: email09@test.com 
+INFO  2019-03-11 12:10 ServerBO:79 - Method result:Mail{id='eeb4a730-46a8-4006-80ec-512d56a2f938', receiver='email09@test.com', title='Title 9 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:32 - Send mail with id=44379b6a-8ebf-4fd0-ab85-42a7c7e9861a 
+INFO  2019-03-11 12:10 ServerBO:72 - Get mails by email: email010@test.com 
+INFO  2019-03-11 12:10 ServerBO:79 - Method result:Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:84 - Get mails by Title: Title 10 
+INFO  2019-03-11 12:10 ServerBO:91 - Method result:Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:84 - Get mails by Title: Title 10 
+INFO  2019-03-11 12:10 ServerBO:91 - Method result:Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:10 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:10 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 12:10 ServerBO:67 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='fa9b4d39-df33-4528-a6a5-c76557274e59', receiver='email03@test.com', title='Title 3 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='a2c1b281-0684-44fc-9c60-bcba601fd3b3', receiver='email04@test.com', title='Title 4 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='3203ba50-2f55-43b5-84e9-f916cf92b89d', receiver='email05@test.com', title='Title 5 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='8258694f-d5a4-4ea5-91ab-01347cef2d98', receiver='email06@test.com', title='Title 6 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='6bdadc46-97d3-400d-bb61-8573c4f73a95', receiver='email07@test.com', title='Title 7 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='9fb3c0a1-fa25-4c30-9128-eee5c0178798', receiver='email08@test.com', title='Title 8 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='eeb4a730-46a8-4006-80ec-512d56a2f938', receiver='email09@test.com', title='Title 9 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:13 ServerBO:84 - Get mails by Title: Title 10 
+INFO  2019-03-11 12:13 ServerBO:91 - Method result:Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:13 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:13 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 12:13 ServerBO:67 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='fa9b4d39-df33-4528-a6a5-c76557274e59', receiver='email03@test.com', title='Title 3 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='a2c1b281-0684-44fc-9c60-bcba601fd3b3', receiver='email04@test.com', title='Title 4 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='3203ba50-2f55-43b5-84e9-f916cf92b89d', receiver='email05@test.com', title='Title 5 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='8258694f-d5a4-4ea5-91ab-01347cef2d98', receiver='email06@test.com', title='Title 6 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='6bdadc46-97d3-400d-bb61-8573c4f73a95', receiver='email07@test.com', title='Title 7 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='9fb3c0a1-fa25-4c30-9128-eee5c0178798', receiver='email08@test.com', title='Title 8 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='eeb4a730-46a8-4006-80ec-512d56a2f938', receiver='email09@test.com', title='Title 9 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:20 ServerBO:84 - Get mails by Title: Title 10 
+INFO  2019-03-11 12:20 ServerBO:91 - Method result:Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:20 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:20 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 12:20 ServerBO:67 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='fa9b4d39-df33-4528-a6a5-c76557274e59', receiver='email03@test.com', title='Title 3 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='a2c1b281-0684-44fc-9c60-bcba601fd3b3', receiver='email04@test.com', title='Title 4 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='3203ba50-2f55-43b5-84e9-f916cf92b89d', receiver='email05@test.com', title='Title 5 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='8258694f-d5a4-4ea5-91ab-01347cef2d98', receiver='email06@test.com', title='Title 6 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='6bdadc46-97d3-400d-bb61-8573c4f73a95', receiver='email07@test.com', title='Title 7 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='9fb3c0a1-fa25-4c30-9128-eee5c0178798', receiver='email08@test.com', title='Title 8 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='eeb4a730-46a8-4006-80ec-512d56a2f938', receiver='email09@test.com', title='Title 9 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:22 ServerBO:84 - Get mails by Title: Title 10 
+INFO  2019-03-11 12:22 ServerBO:91 - Method result:Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:22 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:22 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 12:22 ServerBO:67 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='fa9b4d39-df33-4528-a6a5-c76557274e59', receiver='email03@test.com', title='Title 3 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='a2c1b281-0684-44fc-9c60-bcba601fd3b3', receiver='email04@test.com', title='Title 4 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='3203ba50-2f55-43b5-84e9-f916cf92b89d', receiver='email05@test.com', title='Title 5 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='8258694f-d5a4-4ea5-91ab-01347cef2d98', receiver='email06@test.com', title='Title 6 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='6bdadc46-97d3-400d-bb61-8573c4f73a95', receiver='email07@test.com', title='Title 7 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='9fb3c0a1-fa25-4c30-9128-eee5c0178798', receiver='email08@test.com', title='Title 8 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='eeb4a730-46a8-4006-80ec-512d56a2f938', receiver='email09@test.com', title='Title 9 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:28 ServerBO:32 - Send mail with id=01d9e847-e67d-48a6-95b2-ef21fd1fc81a 
+INFO  2019-03-11 12:28 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 12:28 ServerBO:67 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='fa9b4d39-df33-4528-a6a5-c76557274e59', receiver='email03@test.com', title='Title 3 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='a2c1b281-0684-44fc-9c60-bcba601fd3b3', receiver='email04@test.com', title='Title 4 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='3203ba50-2f55-43b5-84e9-f916cf92b89d', receiver='email05@test.com', title='Title 5 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='8258694f-d5a4-4ea5-91ab-01347cef2d98', receiver='email06@test.com', title='Title 6 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='6bdadc46-97d3-400d-bb61-8573c4f73a95', receiver='email07@test.com', title='Title 7 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='9fb3c0a1-fa25-4c30-9128-eee5c0178798', receiver='email08@test.com', title='Title 8 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='eeb4a730-46a8-4006-80ec-512d56a2f938', receiver='email09@test.com', title='Title 9 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='01d9e847-e67d-48a6-95b2-ef21fd1fc81a', receiver='ProctorAndGamble@simpson.com', title='one of titles'} 
+INFO  2019-03-11 12:36 ServerBO:84 - Get mails by Title: Title 10 
+INFO  2019-03-11 12:36 ServerBO:91 - Method result:Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:36 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:36 ServerBO:84 - Get mails by Title: Title 1 
+INFO  2019-03-11 12:36 ServerBO:91 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'} 
+INFO  2019-03-11 12:36 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:36 ServerBO:84 - Get mails by Title: Title 2 
+INFO  2019-03-11 12:36 ServerBO:91 - Method result:Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'} 
+INFO  2019-03-11 12:36 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:37 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 12:37 ServerBO:67 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='fa9b4d39-df33-4528-a6a5-c76557274e59', receiver='email03@test.com', title='Title 3 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='a2c1b281-0684-44fc-9c60-bcba601fd3b3', receiver='email04@test.com', title='Title 4 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='3203ba50-2f55-43b5-84e9-f916cf92b89d', receiver='email05@test.com', title='Title 5 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='8258694f-d5a4-4ea5-91ab-01347cef2d98', receiver='email06@test.com', title='Title 6 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='6bdadc46-97d3-400d-bb61-8573c4f73a95', receiver='email07@test.com', title='Title 7 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='9fb3c0a1-fa25-4c30-9128-eee5c0178798', receiver='email08@test.com', title='Title 8 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='eeb4a730-46a8-4006-80ec-512d56a2f938', receiver='email09@test.com', title='Title 9 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='01d9e847-e67d-48a6-95b2-ef21fd1fc81a', receiver='ProctorAndGamble@simpson.com', title='one of titles'} 
+INFO  2019-03-11 12:40 ServerBO:84 - Get mails by Title: Title 2 
+INFO  2019-03-11 12:40 ServerBO:91 - Method result:Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'} 
+INFO  2019-03-11 12:40 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:40 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 12:40 ServerBO:67 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='fa9b4d39-df33-4528-a6a5-c76557274e59', receiver='email03@test.com', title='Title 3 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='a2c1b281-0684-44fc-9c60-bcba601fd3b3', receiver='email04@test.com', title='Title 4 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='3203ba50-2f55-43b5-84e9-f916cf92b89d', receiver='email05@test.com', title='Title 5 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='8258694f-d5a4-4ea5-91ab-01347cef2d98', receiver='email06@test.com', title='Title 6 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='6bdadc46-97d3-400d-bb61-8573c4f73a95', receiver='email07@test.com', title='Title 7 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='9fb3c0a1-fa25-4c30-9128-eee5c0178798', receiver='email08@test.com', title='Title 8 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='eeb4a730-46a8-4006-80ec-512d56a2f938', receiver='email09@test.com', title='Title 9 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='01d9e847-e67d-48a6-95b2-ef21fd1fc81a', receiver='ProctorAndGamble@simpson.com', title='one of titles'} 
+INFO  2019-03-11 12:43 ServerBO:84 - Get mails by Title: Title 2 
+INFO  2019-03-11 12:43 ServerBO:91 - Method result:Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'} 
+INFO  2019-03-11 12:43 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:43 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 12:43 ServerBO:67 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='fa9b4d39-df33-4528-a6a5-c76557274e59', receiver='email03@test.com', title='Title 3 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='a2c1b281-0684-44fc-9c60-bcba601fd3b3', receiver='email04@test.com', title='Title 4 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='3203ba50-2f55-43b5-84e9-f916cf92b89d', receiver='email05@test.com', title='Title 5 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='8258694f-d5a4-4ea5-91ab-01347cef2d98', receiver='email06@test.com', title='Title 6 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='6bdadc46-97d3-400d-bb61-8573c4f73a95', receiver='email07@test.com', title='Title 7 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='9fb3c0a1-fa25-4c30-9128-eee5c0178798', receiver='email08@test.com', title='Title 8 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='eeb4a730-46a8-4006-80ec-512d56a2f938', receiver='email09@test.com', title='Title 9 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='01d9e847-e67d-48a6-95b2-ef21fd1fc81a', receiver='ProctorAndGamble@simpson.com', title='one of titles'} 
+INFO  2019-03-11 12:49 ServerBO:84 - Get mails by Title: Title 2 
+INFO  2019-03-11 12:49 ServerBO:91 - Method result:Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'} 
+INFO  2019-03-11 12:49 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:49 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 12:49 ServerBO:67 - Method result:Mail{id='c24b776e-c6c5-48de-be4a-52aa80449a97', receiver='email01@test.com', title='Title 1 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='c791f1d9-31fe-4be3-95fa-2918405fb402', receiver='email02@test.com', title='Title 2 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='fa9b4d39-df33-4528-a6a5-c76557274e59', receiver='email03@test.com', title='Title 3 Mon Mar 11 12:10:02 EET 2019'}, Mail{id='a2c1b281-0684-44fc-9c60-bcba601fd3b3', receiver='email04@test.com', title='Title 4 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='3203ba50-2f55-43b5-84e9-f916cf92b89d', receiver='email05@test.com', title='Title 5 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='8258694f-d5a4-4ea5-91ab-01347cef2d98', receiver='email06@test.com', title='Title 6 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='6bdadc46-97d3-400d-bb61-8573c4f73a95', receiver='email07@test.com', title='Title 7 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='9fb3c0a1-fa25-4c30-9128-eee5c0178798', receiver='email08@test.com', title='Title 8 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='eeb4a730-46a8-4006-80ec-512d56a2f938', receiver='email09@test.com', title='Title 9 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='44379b6a-8ebf-4fd0-ab85-42a7c7e9861a', receiver='email010@test.com', title='Title 10 Mon Mar 11 12:10:03 EET 2019'}, Mail{id='01d9e847-e67d-48a6-95b2-ef21fd1fc81a', receiver='ProctorAndGamble@simpson.com', title='one of titles'} 
+INFO  2019-03-11 12:52 ServerBO:57 - Removing all mails 
+INFO  2019-03-11 12:52 ServerBO:32 - Send mail with id=feefad7f-0fa3-42ec-91ea-4960c1a2a746 
+INFO  2019-03-11 12:52 ServerBO:72 - Get mails by email: email01@test.com 
+INFO  2019-03-11 12:52 ServerBO:79 - Method result:Mail{id='feefad7f-0fa3-42ec-91ea-4960c1a2a746', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 12:52 ServerBO:32 - Send mail with id=b1c1eeb0-c5ae-445b-895d-8ea39dd85700 
+INFO  2019-03-11 12:52 ServerBO:72 - Get mails by email: email02@test.com 
+INFO  2019-03-11 12:52 ServerBO:79 - Method result:Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 12:52 ServerBO:32 - Send mail with id=2949e7d6-a754-40d2-a996-e3ae4847c50d 
+INFO  2019-03-11 12:52 ServerBO:72 - Get mails by email: email03@test.com 
+INFO  2019-03-11 12:52 ServerBO:79 - Method result:Mail{id='2949e7d6-a754-40d2-a996-e3ae4847c50d', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 12:52 ServerBO:32 - Send mail with id=ec78cc19-6da3-4c8e-a6cf-0ed6bbc25617 
+INFO  2019-03-11 12:52 ServerBO:72 - Get mails by email: email04@test.com 
+INFO  2019-03-11 12:52 ServerBO:79 - Method result:Mail{id='ec78cc19-6da3-4c8e-a6cf-0ed6bbc25617', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 12:52 ServerBO:32 - Send mail with id=a01b0af4-6fbc-4d16-9361-20303e6f73d5 
+INFO  2019-03-11 12:52 ServerBO:72 - Get mails by email: email05@test.com 
+INFO  2019-03-11 12:52 ServerBO:79 - Method result:Mail{id='a01b0af4-6fbc-4d16-9361-20303e6f73d5', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 12:52 ServerBO:32 - Send mail with id=fdc5deeb-e441-4c22-b742-a1b3ee0b66cd 
+INFO  2019-03-11 12:52 ServerBO:72 - Get mails by email: email06@test.com 
+INFO  2019-03-11 12:52 ServerBO:79 - Method result:Mail{id='fdc5deeb-e441-4c22-b742-a1b3ee0b66cd', receiver='email06@test.com', title='Title 6'} 
+INFO  2019-03-11 12:52 ServerBO:32 - Send mail with id=02483c6f-28e6-484e-a61e-393651596c04 
+INFO  2019-03-11 12:52 ServerBO:72 - Get mails by email: email07@test.com 
+INFO  2019-03-11 12:52 ServerBO:79 - Method result:Mail{id='02483c6f-28e6-484e-a61e-393651596c04', receiver='email07@test.com', title='Title 7'} 
+INFO  2019-03-11 12:52 ServerBO:32 - Send mail with id=111c7110-e176-4966-aebe-d0d873d5bfac 
+INFO  2019-03-11 12:52 ServerBO:72 - Get mails by email: email08@test.com 
+INFO  2019-03-11 12:52 ServerBO:79 - Method result:Mail{id='111c7110-e176-4966-aebe-d0d873d5bfac', receiver='email08@test.com', title='Title 8'} 
+INFO  2019-03-11 12:52 ServerBO:32 - Send mail with id=189f50d2-4eb1-4d47-b8f3-5c1ce0683bc3 
+INFO  2019-03-11 12:52 ServerBO:72 - Get mails by email: email09@test.com 
+INFO  2019-03-11 12:52 ServerBO:79 - Method result:Mail{id='189f50d2-4eb1-4d47-b8f3-5c1ce0683bc3', receiver='email09@test.com', title='Title 9'} 
+INFO  2019-03-11 12:52 ServerBO:32 - Send mail with id=a0f92dcb-d5a0-4a5a-80d2-644a93c0e161 
+INFO  2019-03-11 12:52 ServerBO:72 - Get mails by email: email010@test.com 
+INFO  2019-03-11 12:52 ServerBO:79 - Method result:Mail{id='a0f92dcb-d5a0-4a5a-80d2-644a93c0e161', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 12:52 ServerBO:84 - Get mails by Title: Title 2 
+INFO  2019-03-11 12:52 ServerBO:91 - Method result:Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 12:52 ServerBO:45 - Removing mails from file 
+INFO  2019-03-11 12:52 ServerBO:65 - Get all mails from file 
+INFO  2019-03-11 12:52 ServerBO:67 - Method result:Mail{id='feefad7f-0fa3-42ec-91ea-4960c1a2a746', receiver='email01@test.com', title='Title 1'}, Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='2949e7d6-a754-40d2-a996-e3ae4847c50d', receiver='email03@test.com', title='Title 3'}, Mail{id='ec78cc19-6da3-4c8e-a6cf-0ed6bbc25617', receiver='email04@test.com', title='Title 4'}, Mail{id='a01b0af4-6fbc-4d16-9361-20303e6f73d5', receiver='email05@test.com', title='Title 5'}, Mail{id='fdc5deeb-e441-4c22-b742-a1b3ee0b66cd', receiver='email06@test.com', title='Title 6'}, Mail{id='02483c6f-28e6-484e-a61e-393651596c04', receiver='email07@test.com', title='Title 7'}, Mail{id='111c7110-e176-4966-aebe-d0d873d5bfac', receiver='email08@test.com', title='Title 8'}, Mail{id='189f50d2-4eb1-4d47-b8f3-5c1ce0683bc3', receiver='email09@test.com', title='Title 9'}, Mail{id='a0f92dcb-d5a0-4a5a-80d2-644a93c0e161', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 12:57 ServerBO:31 - Send mail with id=d66bf6a2-d56c-4479-a1d6-56f404d973f3 
+INFO  2019-03-11 12:57 ServerBO:77 - Get mails by email: email01@test.com 
+INFO  2019-03-11 12:57 ServerBO:84 - Method result:Mail{id='feefad7f-0fa3-42ec-91ea-4960c1a2a746', receiver='email01@test.com', title='Title 1'}, Mail{id='d66bf6a2-d56c-4479-a1d6-56f404d973f3', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 12:57 ServerBO:31 - Send mail with id=56097c26-bf02-4109-a3e0-dba9d910b38b 
+INFO  2019-03-11 12:57 ServerBO:77 - Get mails by email: email02@test.com 
+INFO  2019-03-11 12:57 ServerBO:84 - Method result:Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='56097c26-bf02-4109-a3e0-dba9d910b38b', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 12:57 ServerBO:31 - Send mail with id=c82cf67a-d069-43e5-81da-1d4340995ca7 
+INFO  2019-03-11 12:57 ServerBO:77 - Get mails by email: email03@test.com 
+INFO  2019-03-11 12:57 ServerBO:84 - Method result:Mail{id='2949e7d6-a754-40d2-a996-e3ae4847c50d', receiver='email03@test.com', title='Title 3'}, Mail{id='c82cf67a-d069-43e5-81da-1d4340995ca7', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 12:57 ServerBO:31 - Send mail with id=ed9ca1a5-e549-4cb3-ad8a-1562de3edb73 
+INFO  2019-03-11 12:57 ServerBO:77 - Get mails by email: email04@test.com 
+INFO  2019-03-11 12:57 ServerBO:84 - Method result:Mail{id='ec78cc19-6da3-4c8e-a6cf-0ed6bbc25617', receiver='email04@test.com', title='Title 4'}, Mail{id='ed9ca1a5-e549-4cb3-ad8a-1562de3edb73', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 12:57 ServerBO:31 - Send mail with id=848faac8-61d5-421b-92d9-42d00f92b7b1 
+INFO  2019-03-11 12:57 ServerBO:77 - Get mails by email: email05@test.com 
+INFO  2019-03-11 12:57 ServerBO:84 - Method result:Mail{id='a01b0af4-6fbc-4d16-9361-20303e6f73d5', receiver='email05@test.com', title='Title 5'}, Mail{id='848faac8-61d5-421b-92d9-42d00f92b7b1', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 12:57 ServerBO:31 - Send mail with id=4d3b9587-1be2-449f-8216-823c16f966bc 
+INFO  2019-03-11 12:57 ServerBO:77 - Get mails by email: email06@test.com 
+INFO  2019-03-11 12:57 ServerBO:84 - Method result:Mail{id='fdc5deeb-e441-4c22-b742-a1b3ee0b66cd', receiver='email06@test.com', title='Title 6'}, Mail{id='4d3b9587-1be2-449f-8216-823c16f966bc', receiver='email06@test.com', title='Title 6'} 
+INFO  2019-03-11 12:57 ServerBO:31 - Send mail with id=11170869-aa0d-43f6-8a10-a2f035b58b06 
+INFO  2019-03-11 12:57 ServerBO:77 - Get mails by email: email07@test.com 
+INFO  2019-03-11 12:57 ServerBO:84 - Method result:Mail{id='02483c6f-28e6-484e-a61e-393651596c04', receiver='email07@test.com', title='Title 7'}, Mail{id='11170869-aa0d-43f6-8a10-a2f035b58b06', receiver='email07@test.com', title='Title 7'} 
+INFO  2019-03-11 12:57 ServerBO:31 - Send mail with id=95d067f3-ab3d-4334-96db-8630128451e2 
+INFO  2019-03-11 12:57 ServerBO:77 - Get mails by email: email08@test.com 
+INFO  2019-03-11 12:57 ServerBO:84 - Method result:Mail{id='111c7110-e176-4966-aebe-d0d873d5bfac', receiver='email08@test.com', title='Title 8'}, Mail{id='95d067f3-ab3d-4334-96db-8630128451e2', receiver='email08@test.com', title='Title 8'} 
+INFO  2019-03-11 12:57 ServerBO:31 - Send mail with id=3bacb280-09ce-42e3-a2c3-ff87dd701b60 
+INFO  2019-03-11 12:57 ServerBO:77 - Get mails by email: email09@test.com 
+INFO  2019-03-11 12:57 ServerBO:84 - Method result:Mail{id='189f50d2-4eb1-4d47-b8f3-5c1ce0683bc3', receiver='email09@test.com', title='Title 9'}, Mail{id='3bacb280-09ce-42e3-a2c3-ff87dd701b60', receiver='email09@test.com', title='Title 9'} 
+INFO  2019-03-11 12:57 ServerBO:31 - Send mail with id=454040d7-ca75-4303-b286-d56471b32847 
+INFO  2019-03-11 12:57 ServerBO:77 - Get mails by email: email010@test.com 
+INFO  2019-03-11 12:57 ServerBO:84 - Method result:Mail{id='a0f92dcb-d5a0-4a5a-80d2-644a93c0e161', receiver='email010@test.com', title='Title 10'}, Mail{id='454040d7-ca75-4303-b286-d56471b32847', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 12:58 ServerBO:89 - Get mails by Title: Title 2 
+INFO  2019-03-11 12:58 ServerBO:96 - Method result:Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='56097c26-bf02-4109-a3e0-dba9d910b38b', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 12:58 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 12:58 ServerBO:70 - Get all mails from file 
+INFO  2019-03-11 12:58 ServerBO:72 - Method result:Mail{id='feefad7f-0fa3-42ec-91ea-4960c1a2a746', receiver='email01@test.com', title='Title 1'}, Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='2949e7d6-a754-40d2-a996-e3ae4847c50d', receiver='email03@test.com', title='Title 3'}, Mail{id='ec78cc19-6da3-4c8e-a6cf-0ed6bbc25617', receiver='email04@test.com', title='Title 4'}, Mail{id='a01b0af4-6fbc-4d16-9361-20303e6f73d5', receiver='email05@test.com', title='Title 5'}, Mail{id='fdc5deeb-e441-4c22-b742-a1b3ee0b66cd', receiver='email06@test.com', title='Title 6'}, Mail{id='02483c6f-28e6-484e-a61e-393651596c04', receiver='email07@test.com', title='Title 7'}, Mail{id='111c7110-e176-4966-aebe-d0d873d5bfac', receiver='email08@test.com', title='Title 8'}, Mail{id='189f50d2-4eb1-4d47-b8f3-5c1ce0683bc3', receiver='email09@test.com', title='Title 9'}, Mail{id='a0f92dcb-d5a0-4a5a-80d2-644a93c0e161', receiver='email010@test.com', title='Title 10'}, Mail{id='d66bf6a2-d56c-4479-a1d6-56f404d973f3', receiver='email01@test.com', title='Title 1'}, Mail{id='56097c26-bf02-4109-a3e0-dba9d910b38b', receiver='email02@test.com', title='Title 2'}, Mail{id='c82cf67a-d069-43e5-81da-1d4340995ca7', receiver='email03@test.com', title='Title 3'}, Mail{id='ed9ca1a5-e549-4cb3-ad8a-1562de3edb73', receiver='email04@test.com', title='Title 4'}, Mail{id='848faac8-61d5-421b-92d9-42d00f92b7b1', receiver='email05@test.com', title='Title 5'}, Mail{id='4d3b9587-1be2-449f-8216-823c16f966bc', receiver='email06@test.com', title='Title 6'}, Mail{id='11170869-aa0d-43f6-8a10-a2f035b58b06', receiver='email07@test.com', title='Title 7'}, Mail{id='95d067f3-ab3d-4334-96db-8630128451e2', receiver='email08@test.com', title='Title 8'}, Mail{id='3bacb280-09ce-42e3-a2c3-ff87dd701b60', receiver='email09@test.com', title='Title 9'}, Mail{id='454040d7-ca75-4303-b286-d56471b32847', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 13:03 ServerBO:83 - Get mails by Title: Title 2 
+INFO  2019-03-11 13:03 ServerBO:90 - Method result:Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='56097c26-bf02-4109-a3e0-dba9d910b38b', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 13:03 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 13:03 ServerBO:64 - Get all mails from file 
+INFO  2019-03-11 13:03 ServerBO:66 - Method result:Mail{id='feefad7f-0fa3-42ec-91ea-4960c1a2a746', receiver='email01@test.com', title='Title 1'}, Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='2949e7d6-a754-40d2-a996-e3ae4847c50d', receiver='email03@test.com', title='Title 3'}, Mail{id='ec78cc19-6da3-4c8e-a6cf-0ed6bbc25617', receiver='email04@test.com', title='Title 4'}, Mail{id='a01b0af4-6fbc-4d16-9361-20303e6f73d5', receiver='email05@test.com', title='Title 5'}, Mail{id='fdc5deeb-e441-4c22-b742-a1b3ee0b66cd', receiver='email06@test.com', title='Title 6'}, Mail{id='02483c6f-28e6-484e-a61e-393651596c04', receiver='email07@test.com', title='Title 7'}, Mail{id='111c7110-e176-4966-aebe-d0d873d5bfac', receiver='email08@test.com', title='Title 8'}, Mail{id='189f50d2-4eb1-4d47-b8f3-5c1ce0683bc3', receiver='email09@test.com', title='Title 9'}, Mail{id='a0f92dcb-d5a0-4a5a-80d2-644a93c0e161', receiver='email010@test.com', title='Title 10'}, Mail{id='d66bf6a2-d56c-4479-a1d6-56f404d973f3', receiver='email01@test.com', title='Title 1'}, Mail{id='56097c26-bf02-4109-a3e0-dba9d910b38b', receiver='email02@test.com', title='Title 2'}, Mail{id='c82cf67a-d069-43e5-81da-1d4340995ca7', receiver='email03@test.com', title='Title 3'}, Mail{id='ed9ca1a5-e549-4cb3-ad8a-1562de3edb73', receiver='email04@test.com', title='Title 4'}, Mail{id='848faac8-61d5-421b-92d9-42d00f92b7b1', receiver='email05@test.com', title='Title 5'}, Mail{id='4d3b9587-1be2-449f-8216-823c16f966bc', receiver='email06@test.com', title='Title 6'}, Mail{id='11170869-aa0d-43f6-8a10-a2f035b58b06', receiver='email07@test.com', title='Title 7'}, Mail{id='95d067f3-ab3d-4334-96db-8630128451e2', receiver='email08@test.com', title='Title 8'}, Mail{id='3bacb280-09ce-42e3-a2c3-ff87dd701b60', receiver='email09@test.com', title='Title 9'}, Mail{id='454040d7-ca75-4303-b286-d56471b32847', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 13:06 ServerBO:83 - Get mails by Title: Title 2 
+INFO  2019-03-11 13:06 ServerBO:90 - Method result:Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='56097c26-bf02-4109-a3e0-dba9d910b38b', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 13:06 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 13:06 ServerBO:64 - Get all mails from file 
+INFO  2019-03-11 13:06 ServerBO:66 - Method result:Mail{id='feefad7f-0fa3-42ec-91ea-4960c1a2a746', receiver='email01@test.com', title='Title 1'}, Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='2949e7d6-a754-40d2-a996-e3ae4847c50d', receiver='email03@test.com', title='Title 3'}, Mail{id='ec78cc19-6da3-4c8e-a6cf-0ed6bbc25617', receiver='email04@test.com', title='Title 4'}, Mail{id='a01b0af4-6fbc-4d16-9361-20303e6f73d5', receiver='email05@test.com', title='Title 5'}, Mail{id='fdc5deeb-e441-4c22-b742-a1b3ee0b66cd', receiver='email06@test.com', title='Title 6'}, Mail{id='02483c6f-28e6-484e-a61e-393651596c04', receiver='email07@test.com', title='Title 7'}, Mail{id='111c7110-e176-4966-aebe-d0d873d5bfac', receiver='email08@test.com', title='Title 8'}, Mail{id='189f50d2-4eb1-4d47-b8f3-5c1ce0683bc3', receiver='email09@test.com', title='Title 9'}, Mail{id='a0f92dcb-d5a0-4a5a-80d2-644a93c0e161', receiver='email010@test.com', title='Title 10'}, Mail{id='d66bf6a2-d56c-4479-a1d6-56f404d973f3', receiver='email01@test.com', title='Title 1'}, Mail{id='56097c26-bf02-4109-a3e0-dba9d910b38b', receiver='email02@test.com', title='Title 2'}, Mail{id='c82cf67a-d069-43e5-81da-1d4340995ca7', receiver='email03@test.com', title='Title 3'}, Mail{id='ed9ca1a5-e549-4cb3-ad8a-1562de3edb73', receiver='email04@test.com', title='Title 4'}, Mail{id='848faac8-61d5-421b-92d9-42d00f92b7b1', receiver='email05@test.com', title='Title 5'}, Mail{id='4d3b9587-1be2-449f-8216-823c16f966bc', receiver='email06@test.com', title='Title 6'}, Mail{id='11170869-aa0d-43f6-8a10-a2f035b58b06', receiver='email07@test.com', title='Title 7'}, Mail{id='95d067f3-ab3d-4334-96db-8630128451e2', receiver='email08@test.com', title='Title 8'}, Mail{id='3bacb280-09ce-42e3-a2c3-ff87dd701b60', receiver='email09@test.com', title='Title 9'}, Mail{id='454040d7-ca75-4303-b286-d56471b32847', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 13:06 ServerBO:83 - Get mails by Title: Title 2 
+INFO  2019-03-11 13:06 ServerBO:90 - Method result:Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='56097c26-bf02-4109-a3e0-dba9d910b38b', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 13:06 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 13:06 ServerBO:64 - Get all mails from file 
+INFO  2019-03-11 13:06 ServerBO:66 - Method result:Mail{id='feefad7f-0fa3-42ec-91ea-4960c1a2a746', receiver='email01@test.com', title='Title 1'}, Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='2949e7d6-a754-40d2-a996-e3ae4847c50d', receiver='email03@test.com', title='Title 3'}, Mail{id='ec78cc19-6da3-4c8e-a6cf-0ed6bbc25617', receiver='email04@test.com', title='Title 4'}, Mail{id='a01b0af4-6fbc-4d16-9361-20303e6f73d5', receiver='email05@test.com', title='Title 5'}, Mail{id='fdc5deeb-e441-4c22-b742-a1b3ee0b66cd', receiver='email06@test.com', title='Title 6'}, Mail{id='02483c6f-28e6-484e-a61e-393651596c04', receiver='email07@test.com', title='Title 7'}, Mail{id='111c7110-e176-4966-aebe-d0d873d5bfac', receiver='email08@test.com', title='Title 8'}, Mail{id='189f50d2-4eb1-4d47-b8f3-5c1ce0683bc3', receiver='email09@test.com', title='Title 9'}, Mail{id='a0f92dcb-d5a0-4a5a-80d2-644a93c0e161', receiver='email010@test.com', title='Title 10'}, Mail{id='d66bf6a2-d56c-4479-a1d6-56f404d973f3', receiver='email01@test.com', title='Title 1'}, Mail{id='56097c26-bf02-4109-a3e0-dba9d910b38b', receiver='email02@test.com', title='Title 2'}, Mail{id='c82cf67a-d069-43e5-81da-1d4340995ca7', receiver='email03@test.com', title='Title 3'}, Mail{id='ed9ca1a5-e549-4cb3-ad8a-1562de3edb73', receiver='email04@test.com', title='Title 4'}, Mail{id='848faac8-61d5-421b-92d9-42d00f92b7b1', receiver='email05@test.com', title='Title 5'}, Mail{id='4d3b9587-1be2-449f-8216-823c16f966bc', receiver='email06@test.com', title='Title 6'}, Mail{id='11170869-aa0d-43f6-8a10-a2f035b58b06', receiver='email07@test.com', title='Title 7'}, Mail{id='95d067f3-ab3d-4334-96db-8630128451e2', receiver='email08@test.com', title='Title 8'}, Mail{id='3bacb280-09ce-42e3-a2c3-ff87dd701b60', receiver='email09@test.com', title='Title 9'}, Mail{id='454040d7-ca75-4303-b286-d56471b32847', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 13:08 ServerBO:83 - Get mails by Title: Title 2 
+INFO  2019-03-11 13:08 ServerBO:90 - Method result:Mail{id='b1c1eeb0-c5ae-445b-895d-8ea39dd85700', receiver='email02@test.com', title='Title 2'}, Mail{id='56097c26-bf02-4109-a3e0-dba9d910b38b', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 13:08 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 13:08 ServerBO:64 - Get all mails from file 
+INFO  2019-03-11 13:08 ServerBO:66 - Method result:Mail{id='feefad7f-0fa3-42ec-91ea-4960c1a2a746', receiver='email01@test.com', title='Title 1'}, Mail{id='2949e7d6-a754-40d2-a996-e3ae4847c50d', receiver='email03@test.com', title='Title 3'}, Mail{id='ec78cc19-6da3-4c8e-a6cf-0ed6bbc25617', receiver='email04@test.com', title='Title 4'}, Mail{id='a01b0af4-6fbc-4d16-9361-20303e6f73d5', receiver='email05@test.com', title='Title 5'}, Mail{id='fdc5deeb-e441-4c22-b742-a1b3ee0b66cd', receiver='email06@test.com', title='Title 6'}, Mail{id='02483c6f-28e6-484e-a61e-393651596c04', receiver='email07@test.com', title='Title 7'}, Mail{id='111c7110-e176-4966-aebe-d0d873d5bfac', receiver='email08@test.com', title='Title 8'}, Mail{id='189f50d2-4eb1-4d47-b8f3-5c1ce0683bc3', receiver='email09@test.com', title='Title 9'}, Mail{id='a0f92dcb-d5a0-4a5a-80d2-644a93c0e161', receiver='email010@test.com', title='Title 10'}, Mail{id='d66bf6a2-d56c-4479-a1d6-56f404d973f3', receiver='email01@test.com', title='Title 1'}, Mail{id='c82cf67a-d069-43e5-81da-1d4340995ca7', receiver='email03@test.com', title='Title 3'}, Mail{id='ed9ca1a5-e549-4cb3-ad8a-1562de3edb73', receiver='email04@test.com', title='Title 4'}, Mail{id='848faac8-61d5-421b-92d9-42d00f92b7b1', receiver='email05@test.com', title='Title 5'}, Mail{id='4d3b9587-1be2-449f-8216-823c16f966bc', receiver='email06@test.com', title='Title 6'}, Mail{id='11170869-aa0d-43f6-8a10-a2f035b58b06', receiver='email07@test.com', title='Title 7'}, Mail{id='95d067f3-ab3d-4334-96db-8630128451e2', receiver='email08@test.com', title='Title 8'}, Mail{id='3bacb280-09ce-42e3-a2c3-ff87dd701b60', receiver='email09@test.com', title='Title 9'}, Mail{id='454040d7-ca75-4303-b286-d56471b32847', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 13:53 ServerBO:31 - Send mail with id=fe59ba7b-0421-4dda-b093-1f18ea19c5ac 
+INFO  2019-03-11 13:53 ServerBO:44 - Removing mails from file 
+INFO  2019-03-11 13:55 ServerBO:31 - Send mail with id=52de04c4-c8b2-456e-a008-02a26afea68a 
+INFO  2019-03-11 13:55 ServerBO:83 - Get mails by Title: SomeTitle 
+INFO  2019-03-11 13:55 ServerBO:90 - Method result:Mail{id='52de04c4-c8b2-456e-a008-02a26afea68a', receiver='evilzli@ukr.rrrr', title='SomeTitle'} 

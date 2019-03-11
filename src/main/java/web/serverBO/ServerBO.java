@@ -44,9 +44,7 @@ public class ServerBO {
         LOG.info("Removing mails from file");
         List<Mail> allMails = MailSerializer.read();
         if (mailsToRemove != null && mailsToRemove.size() > 0 && allMails.size() > 0) {
-            for (Mail m : allMails) {
-                allMails = new ArrayList(allMails.stream().filter(mail -> mail.equals(m)).collect(Collectors.toList()));
-            }
+            allMails.removeAll(mailsToRemove);
             MailSerializer.write(allMails);
             return true;
         }
@@ -65,7 +63,7 @@ public class ServerBO {
     public List<Mail> getAll() {
         LOG.info("Get all mails from file");
         List<Mail> allMails = MailSerializer.read();
-        LOG.info("Method result:" + mailsToString(allMails));
+        LOG.info("Method result:\n" + mailsToString(allMails));
         return allMails;
     }
 
@@ -77,7 +75,7 @@ public class ServerBO {
             if (m.getReceiver().equalsIgnoreCase(email))
                 mailsByEmail.add(m);
         }
-        LOG.info("Method result:" + mailsToString(mailsByEmail));
+        LOG.info("Method result:\n" + mailsToString(mailsByEmail));
         return mailsByEmail;
     }
 
@@ -89,7 +87,7 @@ public class ServerBO {
             if (m.getTitle().toLowerCase().contains(title.toLowerCase()))
                 mailsByTitle.add(m);
         }
-        LOG.info("Method result:" + mailsToString(mailsByTitle));
+        LOG.info("Method result:\n" + mailsToString(mailsByTitle));
         return mailsByTitle;
     }
 

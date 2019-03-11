@@ -1,28 +1,25 @@
 package web;
 
 import java.io.Serializable;
-import java.util.Date;
 import java.util.Objects;
-import java.util.UUID;
 
 public class Mail implements Serializable {
 
-    public Date date;
-    public String id;
+    private String date;
+    private String id;
     private String receiver;
     private String title;
     private String text;
 
     public Mail(){
-        date = new Date();
-        id = UUID.randomUUID().toString();
+
     }
 
     public String getId(){
         return id;
     }
 
-    public Date getDate(){
+    public String getDate(){
         return date;
     }
 
@@ -50,12 +47,20 @@ public class Mail implements Serializable {
         this.text = text;
     }
 
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Mail mail = (Mail) o;
-        return id == mail.id &&
+        return id.equals(mail.id) &&
                 date.equals(mail.date) &&
                 receiver.equals(mail.receiver) &&
                 Objects.equals(title, mail.title) &&

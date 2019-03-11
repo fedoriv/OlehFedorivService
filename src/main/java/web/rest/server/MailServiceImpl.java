@@ -25,8 +25,7 @@ public class MailServiceImpl implements MailService{
     @Override
     public Response send(Mail mail) {
         if(server.send(mail)){
-            LOG.info("");
-            response = Response.ok().entity(mail).build();
+            response = Response.ok().build();
         } else {
             faultInfo = new ServiceFaultInfo(FaultMessage.MAIL_ALREADY_EXIST, mail);
             response = Response.status(Response.Status.NOT_ACCEPTABLE).entity(faultInfo).build();
@@ -36,7 +35,6 @@ public class MailServiceImpl implements MailService{
 
     @Override
     public Response remove(List<Mail> mail) {
-
         if (server.remove(mail)) {
             response = Response.ok().build();
         } else {
@@ -56,9 +54,7 @@ public class MailServiceImpl implements MailService{
         List<Mail> mails = server.getAll();
 
         if (mails.size()==0) {
-            faultInfo = new ServiceFaultInfo(FaultMessage.EMPTY_MAIL_LIST);
-            LOG.warn(faultInfo.getMessage());
-            response = Response.status(Response.Status.NOT_FOUND).entity(faultInfo).build();
+            responseFault(Response.Status.NOT_FOUND, new ServiceFaultInfo(FaultMessage.EMPTY_MAIL_LIST));
         } else {
             response = Response.ok().entity(mails).build();
         }
@@ -70,9 +66,7 @@ public class MailServiceImpl implements MailService{
         List<Mail> mails = server.findByEmail(email);
 
         if (mails.size()==0) {
-            faultInfo = new ServiceFaultInfo(FaultMessage.MAIL_NOT_FOUND, email);
-            LOG.warn(faultInfo.getMessage());
-            response = Response.status(Response.Status.NOT_FOUND).entity(faultInfo).build();
+            responseFault(Response.Status.NOT_FOUND, new ServiceFaultInfo(FaultMessage.MAIL_NOT_FOUND, email));
         } else {
             response = Response.ok().entity(mails).build();
         }
@@ -81,11 +75,10 @@ public class MailServiceImpl implements MailService{
 
     @Override
     public Response findByTitle(String title) {
-        List<Mail> mails = server.findByEmail(title);
+        List<Mail> mails = server.findByTitle(title);
         if (mails.size()==0) {
-            faultInfo = new ServiceFaultInfo(FaultMessage.MAIL_NOT_FOUND, title);
-            LOG.warn(faultInfo.getMessage());
-            response = Response.status(Response.Status.NOT_FOUND).entity(faultInfo).build();
+            responseFault(Response.Status.NOT_FOUND, new ServiceFaultInfo(FaultMessage.MAIL_NOT_FOUND, title));
+
         } else {
             response = Response.ok().entity(mails).build();
         }
